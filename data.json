@@ -1,0 +1,496 @@
+[
+  { "hanzi": "相识", "pinyin": "xiāngshí", "pl": "poznawać się nawzajem", "topic": "1A" },
+  { "hanzi": "我", "pinyin": "wǒ", "pl": "ja", "topic": "1A" },
+  { "hanzi": "叫", "pinyin": "jiào", "pl": "nazywać się", "topic": "1A" },
+  { "hanzi": "安娜", "pinyin": "Ānnà", "pl": "Anna (imię)", "topic": "1A" },
+  { "hanzi": "是", "pinyin": "shì", "pl": "być", "topic": "1A" },
+  { "hanzi": "波兰", "pinyin": "Bōlán", "pl": "Polska", "topic": "1A" },
+  { "hanzi": "人", "pinyin": "rén", "pl": "człowiek", "topic": "1A" },
+  { "hanzi": "保罗", "pinyin": "Bǎoluó", "pl": "Paweł (imię)", "topic": "1A" },
+  { "hanzi": "法国", "pinyin": "Fǎguó", "pl": "Francja", "topic": "1A" },
+  { "hanzi": "张丽", "pinyin": "Zhāng Lì", "pl": "Zhang Li (imię i nazwisko)", "topic": "1A" },
+  { "hanzi": "中国", "pinyin": "Zhōngguó", "pl": "Chiny", "topic": "1A" },
+  { "hanzi": "李永华", "pinyin": "Lǐ Yǒnghuá", "pl": "Li Yonghua (imię i nazwisko)", "topic": "1A" },
+  { "hanzi": "也", "pinyin": "yě", "pl": "też", "topic": "1A" },
+
+  { "hanzi": "你好", "pinyin": "nǐ hǎo", "pl": "dzień dobry", "topic": "1B" },
+  { "hanzi": "你", "pinyin": "nǐ", "pl": "ty", "topic": "1B" },
+  { "hanzi": "什么", "pinyin": "shénme", "pl": "co, jaki", "topic": "1B" },
+  { "hanzi": "名字", "pinyin": "míngzi", "pl": "imię", "topic": "1B" },
+  { "hanzi": "呢", "pinyin": "ne", "pl": "partykuła pytajna", "topic": "1B" },
+  { "hanzi": "您", "pinyin": "nín", "pl": "pan/pani (forma grzecznościowa)", "topic": "1B" },
+  { "hanzi": "贵姓", "pinyin": "guìxìng", "pl": "pańskie nazwisko", "topic": "1B" },
+  { "hanzi": "姓", "pinyin": "xìng", "pl": "nazywać się / nazwisko", "topic": "1B" },
+  { "hanzi": "张国安", "pinyin": "Zhāng Guó’ān", "pl": "Zhang Guoan", "topic": "1B" },
+  { "hanzi": "王力", "pinyin": "Wáng Lì", "pl": "Wang Li", "topic": "1B" },
+  { "hanzi": "王丽", "pinyin": "Wáng Lì", "pl": "Wang Li", "topic": "1B" },
+  { "hanzi": "美丽", "pinyin": "měilì", "pl": "piękny", "topic": "1B" },
+  { "hanzi": "的", "pinyin": "de", "pl": "partykuła 的", "topic": "1B" },
+  { "hanzi": "吗", "pinyin": "ma", "pl": "partykuła pytajna", "topic": "1B" },
+  { "hanzi": "李阳", "pinyin": "Lǐ Yáng", "pl": "Li Yang", "topic": "1B" },
+  { "hanzi": "太阳", "pinyin": "tàiyáng", "pl": "słońce", "topic": "1B" },
+
+  { "hanzi": "哪", "pinyin": "nǎ", "pl": "który", "topic": "1C" },
+  { "hanzi": "哪国人", "pinyin": "nǎ guó rén", "pl": "z jakiego kraju", "topic": "1C" },
+  { "hanzi": "美国", "pinyin": "Měiguó", "pl": "USA", "topic": "1C" },
+  { "hanzi": "德国", "pinyin": "Déguó", "pl": "Niemcy", "topic": "1C" },
+  { "hanzi": "英国", "pinyin": "Yīngguó", "pl": "Wielka Brytania", "topic": "1C" },
+  { "hanzi": "俄罗斯", "pinyin": "Éluósī", "pl": "Rosja", "topic": "1C" },
+  { "hanzi": "意大利", "pinyin": "Yìdàlì", "pl": "Włochy", "topic": "1C" },
+  { "hanzi": "日本", "pinyin": "Rìběn", "pl": "Japonia", "topic": "1C" },
+  { "hanzi": "韩国", "pinyin": "Hánguó", "pl": "Korea Południowa", "topic": "1C" },
+  { "hanzi": "她", "pinyin": "tā", "pl": "ona", "topic": "1C" },
+  { "hanzi": "他", "pinyin": "tā", "pl": "on", "topic": "1C" },
+
+  { "hanzi": "对", "pinyin": "duì", "pl": "tak, zgadza się", "topic": "1D" },
+  { "hanzi": "不", "pinyin": "bù", "pl": "nie", "topic": "1D" },
+
+  { "hanzi": "认识", "pinyin": "rènshi", "pl": "znać, poznać", "topic": "1E" },
+  { "hanzi": "知道", "pinyin": "zhīdào", "pl": "wiedzieć", "topic": "1E" },
+  { "hanzi": "谁", "pinyin": "shuí", "pl": "kto", "topic": "1E" },
+  { "hanzi": "姓名", "pinyin": "xìngmíng", "pl": "imię i nazwisko", "topic": "1E" },
+  { "hanzi": "国籍", "pinyin": "guójí", "pl": "obywatelstwo", "topic": "1E" },
+
+  { "hanzi": "老师", "pinyin": "lǎoshī", "pl": "nauczyciel", "topic": "1F" },
+  { "hanzi": "您好", "pinyin": "nín hǎo", "pl": "dzień dobry (grzecznie)", "topic": "1F" },
+  {
+    "hanzi": "打招呼",
+    "pinyin": "dǎ zhāohu",
+    "pl": "pozdrawiać",
+    "topic": "2A",
+    "components": [
+      { "char": "打", "meaning": "uderzać / wykonywać", "note": "扌(ręka) + 丁 (fonetyczny)" },
+      { "char": "招", "meaning": "wołać, zapraszać", "note": "扌(ręka) + 召 (wołać)" },
+      { "char": "呼", "meaning": "wołać, oddychać", "note": "口(usta) + 乎 (fonetyczny)" }
+    ]
+  },
+  {
+    "hanzi": "嗨",
+    "pinyin": "hài",
+    "pl": "cześć",
+    "topic": "2A",
+    "components": [
+      { "char": "口", "meaning": "usta", "note": "radical – mówienie" },
+      { "char": "海", "meaning": "morze (fonetyczny)", "note": "element fonetyczny" }
+    ]
+  },
+  {
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "pl": "dzisiaj",
+    "topic": "2A",
+    "components": [
+      { "char": "今", "meaning": "teraźniejszość", "note": "dzisiaj, teraz" },
+      { "char": "天", "meaning": "dzień / niebo", "note": "czas, dzień" }
+    ]
+  },
+    { "hanzi": "怎么样", "pinyin": "zěnmeyàng", "pl": "jaki, jak", "topic": "2A" },
+    { "hanzi": "很", "pinyin": "hěn", "pl": "bardzo", "topic": "2A" },
+    {
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "pl": "dobry",
+      "topic": "2A",
+      "components": [
+        { "char": "女", "meaning": "kobieta", "note": "radical znaczeniowy" },
+        { "char": "子", "meaning": "dziecko", "note": "dziecko = dobro (koncepcja kulturowa)" }
+      ]
+    },
+    { "hanzi": "哎", "pinyin": "ài", "pl": "ej!, hej!", "topic": "2A" },
+    { "hanzi": "啊", "pinyin": "a", "pl": "partykuła łagodząca", "topic": "2A" },
+    { "hanzi": "不错", "pinyin": "bùcuò", "pl": "niezły, dobry", "topic": "2A" },
+    {
+      "hanzi": "还",
+      "pinyin": "hái",
+      "pl": "jeszcze",
+      "topic": "2A",
+      "components": [
+        { "char": "辶", "meaning": "ruch, droga", "note": "radical – proces, ciągłość" },
+        { "char": "不", "meaning": "nie (fonetyczny)", "note": "element fonetyczny" }
+      ]
+    },
+    {
+      "hanzi": "行",
+      "pinyin": "xíng",
+      "pl": "może być, działać",
+      "topic": "2A",
+      "components": [
+        { "char": "彳", "meaning": "iść", "note": "radical – ruch" },
+        { "char": "亍", "meaning": "krok", "note": "ruch naprzód" }
+      ]
+    },
+    {
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "pl": "mały",
+      "topic": "2A",
+      "components": [
+        { "char": "⼩", "meaning": "mały", "note": "piktogram – coś drobnego" }
+      ]
+    },
+    {
+      "hanzi": "好久", 
+      "pinyin": "hǎojiǔ", 
+      "pl": "bardzo długo", 
+      "topic": "2A",
+      "components": [
+        { "char": "女", "meaning": "kobieta", "note": "radical znaczeniowy" },
+        { "char": "子", "meaning": "dziecko", "note": "dziecko = dobro (koncepcja kulturowa)" },
+        { "char": "丿", "meaning": "linia", "note": "upływ czasu" },
+        { "char": "𠂊", "meaning": "człowiek", "note": "postać ludzka" }
+      ]
+    },
+    {
+      "hanzi": "见",
+      "pinyin": "jiàn",
+      "pl": "widzieć",
+      "topic": "2A",
+      "components": [
+        { "char": "目", "meaning": "oko", "note": "patrzenie" },
+        { "char": "儿", "meaning": "człowiek", "note": "postać ludzka" }
+      ]
+    },
+    { "hanzi": "了", "pinyin": "le", "pl": "partykuła zmiany", "topic": "2A" },
+    { "hanzi": "好久不见了", "pinyin": "hǎojiǔ bù jiàn le", "pl": "dawno się nie widzieliśmy", "topic": "2A" },
+    {
+      "hanzi": "最近",
+      "pinyin": "zuìjìn",
+      "pl": "ostatnio",
+      "topic": "2A",
+      "components": [
+        { "char": "日", "meaning": "słońce", "note": "czas, intensywność" },
+        { "char": "取", "meaning": "brać", "note": "maksimum" },
+        { "char": "辶", "meaning": "ruch", "note": "proces" },
+        { "char": "斤", "meaning": "topór (fon.)", "note": "element fonetyczny" }
+      ]
+    },
+    {
+      "hanzi": "可以",
+      "pinyin": "kěyǐ",
+      "pl": "można, w porządku",
+      "topic": "2A",
+      "components": [
+        { "char": "口", "meaning": "usta", "note": "zgoda, mowa" },
+        { "char": "丁", "meaning": "człowiek (fon.)", "note": "element fonetyczny" },
+        { "char": "人", "meaning": "człowiek", "note": "działanie" },
+        { "char": "弋", "meaning": "narzędzie", "note": "środek działania" }
+      ]
+    },
+    { "hanzi": "老", "pinyin": "lǎo", "pl": "stary", "topic": "2A" },
+    { "hanzi": "还凑合", "pinyin": "hái còuhe", "pl": "tak sobie", "topic": "2A" },
+    { "hanzi": "马马虎虎", "pinyin": "mǎmǎhūhū", "pl": "tak sobie, średnio", "topic": "2A" },
+  
+    {
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "pl": "zajęty",
+      "topic": "2B",
+      "components": [
+        { "char": "忄", "meaning": "serce / emocje", "note": "radical – stan psychiczny" },
+        { "char": "亡", "meaning": "utrata (fonetyczny)", "note": "brak czasu" }
+      ]
+    },
+    {
+      "hanzi": "太",
+      "pinyin": "tài",
+      "pl": "zbyt",
+      "topic": "2B",
+      "components": [
+        { "char": "大", "meaning": "duży", "note": "nadmiar" },
+        { "char": "丶", "meaning": "kropka", "note": "wzmocnienie" }
+      ]
+    },
+    { "hanzi": "不太", "pinyin": "bù tài", "pl": "nie bardzo", "topic": "2B" },
+    {
+      "hanzi": "非常",
+      "pinyin": "fēicháng",
+      "pl": "bardzo",
+      "topic": "2B",
+      "components": [
+        { "char": "非", "meaning": "nie", "note": "symetria – zaprzeczenie" }
+      ]
+    },
+    {
+      "hanzi": "累",
+      "pinyin": "lèi",
+      "pl": "zmęczony",
+      "topic": "2B",
+      "components": [
+        { "char": "田", "meaning": "pole" },
+        { "char": "糸", "meaning": "nić, wysiłek" }
+      ]
+    },
+    { "hanzi": "比较", "pinyin": "bǐjiào", "pl": "stosunkowo", "topic": "2B" },
+    {
+      "hanzi": "特别",
+      "pinyin": "tèbié",
+      "pl": "szczególnie",
+      "topic": "2B",
+      "components": [
+        { "char": "牛", "meaning": "krowa", "note": "coś wyjątkowego" },
+        { "char": "寺", "meaning": "świątynia (fon.)", "note": "element fonetyczny" }
+      ]
+    },
+    { "hanzi": "勇敢", "pinyin": "yǒnggǎn", "pl": "odważny", "topic": "2B" },
+    {
+      "hanzi": "聪明", 
+      "pinyin": "cōngmíng", 
+      "pl": "mądry", "topic": "2B",
+      "components": [
+        { "char": "耳", "meaning": "ucho", "note": "słuchanie" },
+        { "char": "总", "meaning": "zbierać (fon.)", "note": "umysł" },
+        { "char": "心", "meaning": "serce" },
+        { "char": "日", "meaning": "słońce" },
+        { "char": "月", "meaning": "księżyc" }
+      ]
+    },
+    { "hanzi": "漂亮", 
+      "pinyin": "piàoliang", 
+      "pl": "ładny", 
+      "topic": "2B",
+      "components": [
+        { "char": "氵", "meaning": "woda", "note": "czystość" },
+        { "char": "票", "meaning": "lekki (fon.)", "note": "estetyka" }
+      ]
+    },
+    { "hanzi": "高兴", 
+      "pinyin": "gāoxìng", 
+      "pl": "szczęśliwy", 
+      "topic": "2B",
+      "components": [
+        { "char": "高", "meaning": "wysoki" }
+      ]
+    },
+    { "hanzi": "怎么", "pinyin": "zěnme", "pl": "jak", "topic": "2B" },
+    { "hanzi": "觉得", "pinyin": "juéde", "pl": "sądzić, uważać", "topic": "2B" },
+  
+    { "hanzi": "哟", "pinyin": "yō", "pl": "oj!", "topic": "2C" },
+    { "hanzi": "挺", "pinyin": "tǐng", "pl": "całkiem", "topic": "2C" },
+    { "hanzi": "样子", "pinyin": "yàngzi", "pl": "wygląd", "topic": "2C" },
+    { "hanzi": "老样子", "pinyin": "lǎo yàngzi", "pl": "po staremu", "topic": "2C" },
+    {
+      "hanzi": "吧",
+      "pinyin": "ba",
+      "pl": "chyba",
+      "topic": "2C",
+      "components": [
+        { "char": "口", "meaning": "usta", "note": "wypowiedź" },
+        { "char": "巴", "meaning": "oczekiwanie (fon.)", "note": "ton przypuszczenia" }
+      ]
+    },
+    { "hanzi": "倒", "pinyin": "dào", "pl": "natomiast", "topic": "2C" },
+    { "hanzi": "家", "pinyin": "jiā", "pl": "dom", "topic": "2C" },
+    { "hanzi": "里", "pinyin": "lǐ", "pl": "w", "topic": "2C" },
+    { "hanzi": "家里", "pinyin": "jiā li", "pl": "w domu", "topic": "2C" },
+    { "hanzi": "都", "pinyin": "dōu", "pl": "wszyscy", "topic": "2C" },
+  
+    {
+      "hanzi": "谢谢",
+      "pinyin": "xièxie",
+      "pl": "dziękuję",
+      "topic": "2D",
+      "components": [
+      { "char": "讠", "meaning": "mowa", "note": "radical – słowa" },
+      { "char": "射", "meaning": "odpowiadać (fon.)", "note": "element fonetyczny" }
+      ]
+    },
+    { "hanzi": "早", "pinyin": "zǎo", "pl": "cześć (rano)", "topic": "2D" },
+    { "hanzi": "早上", "pinyin": "zǎoshang", "pl": "rano", "topic": "2D" },
+  
+    { "hanzi": "家人", "pinyin": "jiārén", "pl": "członek rodziny", "topic": "3A" },
+    {
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "pl": "przyjaciel",
+      "topic": "3A",
+      "components": [
+        { "char": "朋", "meaning": "grupa, towarzystwo", "note": "dwa księżyce = razem" },
+        { "char": "友", "meaning": "przyjaciel", "note": "relacja" }
+      ]
+    },
+    { "hanzi": "们", "pinyin": "men", "pl": "liczba mnoga", "topic": "3A" },
+    { "hanzi": "看", "pinyin": "kàn", "pl": "patrzeć", "topic": "3A" },
+    { "hanzi": "这", "pinyin": "zhè", "pl": "ten, to", "topic": "3A" },
+    { "hanzi": "全家福", "pinyin": "quánjiāfú", "pl": "zdjęcie rodzinne", "topic": "3A" },
+    { "hanzi": "妈妈", "pinyin": "māma", "pl": "mama", "topic": "3A" },
+    { "hanzi": "爸爸", "pinyin": "bàba", "pl": "tata", "topic": "3A" },
+    { "hanzi": "爷爷", "pinyin": "yéye", "pl": "dziadek (od ojca)", "topic": "3A" },
+    { "hanzi": "弟弟", "pinyin": "dìdi", "pl": "młodszy brat", "topic": "3A" },
+    { "hanzi": "姐姐", "pinyin": "jiějie", "pl": "starsza siostra", "topic": "3A" },
+    { "hanzi": "哥哥", "pinyin": "gēge", "pl": "starszy brat", "topic": "3A" },
+  
+    { "hanzi": "妹妹", "pinyin": "mèimei", "pl": "młodsza siostra", "topic": "3B" },
+    { "hanzi": "和", "pinyin": "hé", "pl": "i", "topic": "3B" },
+    { "hanzi": "英语", "pinyin": "Yīngyǔ", "pl": "język angielski", "topic": "3B" },
+  
+    {
+      "hanzi": "中学",
+      "pinyin": "zhōngxué",
+      "pl": "szkoła średnia",
+      "topic": "3C",
+      "components": [
+        { "char": "冖", "meaning": "dach", "note": "budynek" },
+        { "char": "子", "meaning": "dziecko", "note": "uczeń" }
+      ]
+    },
+    {
+      "hanzi": "同学",
+      "pinyin": "tóngxué",
+      "pl": "kolega ze szkoły",
+      "topic": "3C",
+      "components": [
+        { "char": "冖", "meaning": "dach", "note": "budynek" },
+        { "char": "子", "meaning": "dziecko", "note": "uczeń" }
+      ]
+    },
+    { "hanzi": "奇怪", "pinyin": "qíguài", "pl": "dziwny", "topic": "3C" },
+    { "hanzi": "女", "pinyin": "nǚ", "pl": "żeński", "topic": "3C" },
+    { "hanzi": "女朋友", "pinyin": "nǚ péngyou", "pl": "dziewczyna", "topic": "3C" },
+    { "hanzi": "有意思", "pinyin": "yǒu yìsi", "pl": "interesujący", "topic": "3C" },
+    { "hanzi": "那", "pinyin": "nà", "pl": "tamten", "topic": "3C" },
+    { "hanzi": "汉语", "pinyin": "Hànyǔ", "pl": "język chiński", "topic": "3C" },
+    {
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "pl": "nowy",
+      "topic": "3C",
+      "components": [
+        { "char": "亲", "meaning": "bliski", "note": "świeżość" },
+        { "char": "斤", "meaning": "topór", "note": "odcinanie starego" }
+      ]
+    },
+  
+    { "hanzi": "姥爷", "pinyin": "lǎoye", "pl": "dziadek (od matki)", "topic": "3D" },
+    { "hanzi": "女儿", "pinyin": "nǚ'ér", "pl": "córka", "topic": "3D" },
+    { "hanzi": "妻子", "pinyin": "qīzi", "pl": "żona", "topic": "3D" },
+    { "hanzi": "孙子", "pinyin": "sūnzi", "pl": "wnuk", "topic": "3D" },
+    { "hanzi": "儿子", "pinyin": "érzi", "pl": "syn", "topic": "3D" },
+    { "hanzi": "奶奶", "pinyin": "nǎinai", "pl": "babcia (od ojca)", "topic": "3D" },
+    { "hanzi": "姥姥", "pinyin": "lǎolao", "pl": "babcia (od matki)", "topic": "3D" },
+    { "hanzi": "丈夫", "pinyin": "zhàngfu", "pl": "mąż", "topic": "3D" },
+    { "hanzi": "孙女", "pinyin": "sūnnǚ", "pl": "wnuczka", "topic": "3D" },
+  
+    { "hanzi": "来", "pinyin": "lái", "pl": "przyjść", "topic": "3E" },
+    { "hanzi": "介绍", "pinyin": "jièshào", "pl": "przedstawić", "topic": "3E" },
+    { "hanzi": "一下", "pinyin": "yīxià", "pl": "chwilkę", "topic": "3E" },
+    { "hanzi": "先生", "pinyin": "xiānsheng", "pl": "pan", "topic": "3E" },
+  
+    { "hanzi": "校长", "pinyin": "xiàozhǎng", "pl": "dyrektor szkoły", "topic": "3F" },
+    { "hanzi": "教授", "pinyin": "jiàoshòu", "pl": "profesor", "topic": "3F" },
+    { "hanzi": "学校", "pinyin": "xuéxiào", "pl": "szkoła", "topic": "3F" },
+    { "hanzi": "荣幸", "pinyin": "róngxìng", "pl": "zaszczycony", "topic": "3F" },
+  
+    {
+      "hanzi": "再见",
+      "pinyin": "zàijiàn",
+      "pl": "do widzenia",
+      "topic": "3G",
+      "components": [
+        { "char": "再", "meaning": "znowu", "note": "ponowne spotkanie" },
+        { "char": "见", "meaning": "widzieć", "note": "zobaczyć się" }
+      ]
+    },
+    { "hanzi": "晚上", "pinyin": "wǎnshang", "pl": "wieczór", "topic": "3G" },
+    { "hanzi": "明天", "pinyin": "míngtiān", "pl": "jutro", "topic": "3G" },
+    { "hanzi": "回头", "pinyin": "huítóu", "pl": "za chwilę", "topic": "3G" },
+    { "hanzi": "拜拜", "pinyin": "báibái", "pl": "pa pa", "topic": "3G" },
+  
+    { "hanzi": "意大利语", "pinyin": "Yìdàlìyǔ", "pl": "język włoski", "topic": "ĆW" },
+
+    { "hanzi": "学习", "pinyin": "xuéxí", "pl": "uczyć się", "topic": "4A" },
+  { "hanzi": "工作", "pinyin": "gōngzuò", "pl": "pracować", "topic": "4A" },
+
+  { "hanzi": "历史", "pinyin": "lìshǐ", "pl": "historia", "topic": "4A" },
+  { "hanzi": "在", "pinyin": "zài", "pl": "w", "topic": "4A" },
+  { "hanzi": "上海", "pinyin": "Shànghǎi", "pl": "Szanghaj", "topic": "4A" },
+  { "hanzi": "大学", "pinyin": "dàxué", "pl": "uniwersytet", "topic": "4A" },
+  { "hanzi": "系", "pinyin": "xì", "pl": "wydział", "topic": "4A" },
+  { "hanzi": "医生", "pinyin": "yīshēng", "pl": "lekarz", "topic": "4A" },
+  { "hanzi": "医院", "pinyin": "yīyuàn", "pl": "szpital", "topic": "4A" },
+  { "hanzi": "中山医院", "pinyin": "Zhōngshān Yīyuàn", "pl": "Szpital Zhongshan", "topic": "4A" },
+  { "hanzi": "还是", "pinyin": "háishi", "pl": "czy (alternatywa)", "topic": "4A" },
+  { "hanzi": "复旦大学", "pinyin": "Fùdàn Dàxué", "pl": "Uniwersytet Fudan", "topic": "4A" },
+  { "hanzi": "学生", "pinyin": "xuésheng", "pl": "uczeń, student", "topic": "4A" },
+  { "hanzi": "电脑", "pinyin": "diànnǎo", "pl": "komputer", "topic": "4A" },
+  { "hanzi": "工程师", "pinyin": "gōngchéngshī", "pl": "inżynier", "topic": "4A" },
+  { "hanzi": "电脑工程师", "pinyin": "diànnǎo gōngchéngshī", "pl": "informatyk", "topic": "4A" },
+  { "hanzi": "达丰", "pinyin": "Dáfēng", "pl": "Dafeng (firma)", "topic": "4A" },
+  { "hanzi": "有限", "pinyin": "yǒuxiàn", "pl": "ograniczony", "topic": "4A" },
+  { "hanzi": "公司", "pinyin": "gōngsī", "pl": "firma", "topic": "4A" },
+  { "hanzi": "有限公司", "pinyin": "yǒuxiàn gōngsī", "pl": "spółka z o.o.", "topic": "4A" },
+  { "hanzi": "当", "pinyin": "dāng", "pl": "pełnić funkcję", "topic": "4A" },
+  { "hanzi": "经理", "pinyin": "jīnglǐ", "pl": "dyrektor, menedżer", "topic": "4A" },
+  { "hanzi": "做", "pinyin": "zuò", "pl": "robić, wykonywać", "topic": "4A" },
+  { "hanzi": "教师", "pinyin": "jiàoshī", "pl": "nauczyciel", "topic": "4A" },
+  { "hanzi": "波兹南", "pinyin": "Bōzīnán", "pl": "Poznań", "topic": "4A" },
+  { "hanzi": "地理", "pinyin": "dìlǐ", "pl": "geografia", "topic": "4A" },
+  { "hanzi": "英文", "pinyin": "Yīngwén", "pl": "język angielski", "topic": "4A" },
+  { "hanzi": "翻译", "pinyin": "fānyì", "pl": "tłumacz", "topic": "4A" },
+  { "hanzi": "哪儿", "pinyin": "nǎr", "pl": "gdzie", "topic": "4A" },
+  { "hanzi": "科技", "pinyin": "kējì", "pl": "nauka i technika", "topic": "4A" },
+  { "hanzi": "出版社", "pinyin": "chūbǎnshè", "pl": "wydawnictwo", "topic": "4A" },
+  { "hanzi": "自己", "pinyin": "zìjǐ", "pl": "sam, siebie", "topic": "4A" },
+  { "hanzi": "工作", "pinyin": "gōngzuò", "pl": "praca", "topic": "4A" },
+
+  { "hanzi": "华沙", "pinyin": "Huáshā", "pl": "Warszawa", "topic": "4B" },
+  { "hanzi": "国际", "pinyin": "guójì", "pl": "międzynarodowy", "topic": "4B" },
+  { "hanzi": "政治", "pinyin": "zhèngzhì", "pl": "polityka", "topic": "4B" },
+  { "hanzi": "将来", "pinyin": "jiānglái", "pl": "przyszłość", "topic": "4B" },
+  { "hanzi": "想", "pinyin": "xiǎng", "pl": "chcieć", "topic": "4B" },
+  { "hanzi": "外交官", "pinyin": "wàijiāoguān", "pl": "dyplomata", "topic": "4B" },
+  { "hanzi": "大学生", "pinyin": "dàxuéshēng", "pl": "student", "topic": "4B" },
+  { "hanzi": "中学生", "pinyin": "zhōngxuéshēng", "pl": "uczeń szkoły średniej", "topic": "4B" },
+  { "hanzi": "但是", "pinyin": "dànshì", "pl": "ale", "topic": "4B" },
+  { "hanzi": "上大学", "pinyin": "shàng dàxué", "pl": "studiować", "topic": "4B" },
+  { "hanzi": "学", "pinyin": "xué", "pl": "uczyć się", "topic": "4B" },
+  { "hanzi": "专业", "pinyin": "zhuānyè", "pl": "kierunek studiów", "topic": "4B" },
+
+  { "hanzi": "教书", "pinyin": "jiāo shū", "pl": "uczyć (zawodowo)", "topic": "4C" },
+
+  { "hanzi": "职业", "pinyin": "zhíyè", "pl": "zawód", "topic": "4D" },
+  { "hanzi": "单位", "pinyin": "dānwèi", "pl": "jednostka", "topic": "4D" },
+  { "hanzi": "工作单位", "pinyin": "gōngzuò dānwèi", "pl": "miejsce pracy", "topic": "4D" },
+  { "hanzi": "建筑", "pinyin": "jiànzhù", "pl": "architektura", "topic": "4D" },
+  { "hanzi": "法官", "pinyin": "fǎguān", "pl": "sędzia", "topic": "4D" },
+  { "hanzi": "巴黎", "pinyin": "Bālí", "pl": "Paryż", "topic": "4D" },
+  { "hanzi": "大", "pinyin": "dà", "pl": "duży", "topic": "4D" },
+  { "hanzi": "剧场", "pinyin": "jùchǎng", "pl": "teatr", "topic": "4D" },
+  { "hanzi": "大剧场", "pinyin": "Dà Jùchǎng", "pl": "Teatr Wielki", "topic": "4D" },
+  { "hanzi": "记者", "pinyin": "jìzhě", "pl": "dziennikarz", "topic": "4D" },
+  { "hanzi": "法院", "pinyin": "fǎyuàn", "pl": "sąd", "topic": "4D" },
+  { "hanzi": "最", "pinyin": "zuì", "pl": "najbardziej", "topic": "4D" },
+  { "hanzi": "高", "pinyin": "gāo", "pl": "wysoki", "topic": "4D" },
+  { "hanzi": "最高法院", "pinyin": "Zuìgāo Fǎyuàn", "pl": "Sąd Najwyższy", "topic": "4D" },
+  { "hanzi": "建筑师", "pinyin": "jiànzhùshī", "pl": "architekt", "topic": "4D" },
+  { "hanzi": "演员", "pinyin": "yǎnyuán", "pl": "aktor", "topic": "4D" },
+  { "hanzi": "新闻", "pinyin": "xīnwén", "pl": "wiadomości", "topic": "4D" },
+  { "hanzi": "新闻社", "pinyin": "xīnwénshè", "pl": "agencja prasowa", "topic": "4D" },
+  { "hanzi": "律师", "pinyin": "lǜshī", "pl": "prawnik", "topic": "4D" },
+  { "hanzi": "法律", "pinyin": "fǎlǜ", "pl": "prawo", "topic": "4D" },
+  { "hanzi": "经济", "pinyin": "jīngjì", "pl": "ekonomia", "topic": "4D" },
+  { "hanzi": "汉学", "pinyin": "hànxué", "pl": "sinologia", "topic": "4D" },
+  { "hanzi": "商人", "pinyin": "shāngrén", "pl": "biznesmen", "topic": "4D" },
+  { "hanzi": "医学", "pinyin": "yīxué", "pl": "medycyna", "topic": "4D" },
+
+  { "hanzi": "给", "pinyin": "gěi", "pl": "dla", "topic": "4E" },
+  { "hanzi": "从", "pinyin": "cóng", "pl": "z, od", "topic": "4E" },
+  { "hanzi": "来", "pinyin": "lái", "pl": "przyjść", "topic": "4E" },
+  { "hanzi": "现在", "pinyin": "xiànzài", "pl": "teraz", "topic": "4E" },
+  { "hanzi": "文化", "pinyin": "wénhuà", "pl": "kultura", "topic": "4E" },
+  { "hanzi": "北京", "pinyin": "Běijīng", "pl": "Pekin", "topic": "4E" },
+  { "hanzi": "广告", "pinyin": "guǎnggào", "pl": "reklama", "topic": "4E" },
+  { "hanzi": "副经理", "pinyin": "fùjīnglǐ", "pl": "wicedyrektor", "topic": "4E" },
+
+  { "hanzi": "请问", "pinyin": "qǐngwèn", "pl": "czy mogę zapytać", "topic": "4F" },
+  { "hanzi": "技术", "pinyin": "jìshù", "pl": "technologia", "topic": "4F" },
+  { "hanzi": "信息", "pinyin": "xìnxī", "pl": "informacja", "topic": "4F" },
+  { "hanzi": "对不起", "pinyin": "duìbuqǐ", "pl": "przepraszam", "topic": "4F" },
+  { "hanzi": "没关系", "pinyin": "méi guānxi", "pl": "nic nie szkodzi", "topic": "4F" },
+  { "hanzi": "工程", "pinyin": "gōngchéng", "pl": "projekt", "topic": "4F" },
+  { "hanzi": "部", "pinyin": "bù", "pl": "dział", "topic": "4F" },
+  { "hanzi": "发展", "pinyin": "fāzhǎn", "pl": "rozwijać", "topic": "4F" },
+
+  { "hanzi": "日语", "pinyin": "Rìyǔ", "pl": "język japoński", "topic": "ĆW" },
+  { "hanzi": "中文", "pinyin": "Zhōngwén", "pl": "język chiński", "topic": "ĆW" }
+  ]
+  

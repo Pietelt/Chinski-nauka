@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#d32f2f">
+<title>Nauka chińskiego – tryb tematyczny</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hanzi {
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.pinyin {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.pl {
+    font-size: 20px;
+    color: #444;
+    margin-top: 10px;
+}
+
+#answer {
+    display: none;
+}
+
+select, button {
+    padding: 8px 15px;
+    font-size: 16px;
+    margin: 10px;
+}
+.answer-layout {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 30px;
+    align-items: start;
+
+    /* 🔽 TO JEST KLUCZ */
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+
+    background: #fafafa;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+.answer-text {
+    text-align: center;
+}
+
+#stroke-container {
+    display: none;
+}
+
+#stroke-iframe {
+    width: 100%;
+    height: 420px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+/* RESPONSYWNOŚĆ */
+@media (max-width: 900px) {
+    .answer-layout {
+        grid-template-columns: 1fr;
+    }
+
+    #stroke-iframe {
+        height: 360px;
+    }
+}
+#components {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#components-list {
+    display: grid;
+    gap: 12px;
+}
+
+.component {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    background: #fff;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border-left: 4px solid #e53935;
+}
+
+.component-char {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.component-desc {
+    font-size: 15px;
+}
+iframe {
+  width: 100%;
+  height: 300px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Nauka chińskiego 🇨🇳</h1>
+
+<select id="topicSelect">
+    <option value="all">Wszystkie tematy</option>
+</select>
+
+<br>
+
+<label for="startMode">Początkowo pokazuj:</label>
+<select id="startMode">
+    <option value="hanzi">Hanzi</option>
+    <option value="pinyin">Pinyin</option>
+    <option value="pl">Polskie tłumaczenie</option>
+    <option value="random">Losowo</option>
+</select>
+
+<br>
+
+<button onclick="draw()">Losuj</button>
+<button onclick="showAnswer()">Pokaż odpowiedź</button>
+
+<div id="question" class="hanzi"></div>
+
+<div id="answer">
+    <div class="answer-layout">
+
+        <!-- LEWA STRONA – TEKST -->
+        <div class="answer-text">
+            <div id="ans-hanzi" class="hanzi"></div>
+            <div id="ans-pinyin" class="pinyin"></div>
+            <div id="ans-pl" class="pl"></div>
+            <div id="components" style="margin-top:20px; display:none;">
+                <h3>Budowa znaku</h3>
+                <div id="components-list"></div>
+            </div>
+        </div>
+
+        <!-- PRAWA STRONA – ANIMACJA -->
+        <div id="stroke-container">
+            <iframe
+                id="stroke-iframe"
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+</div>
+
+<script>
+let words = [];
+let filteredWords = [];
+let currentWord = null;
+let questionType = null;
+
+fetch("data.json")
+    .then(res => res.json())
+    .then(data => {
+        words = data;
+        setupTopics();
+        filteredWords = words;
+    });
+
+function setupTopics() {
+    const select = document.getElementById("topicSelect");
+    const topics = [...new Set(words.map(w => w.topic))];
+
+    topics.forEach(topic => {
+        const option = document.createElement("option");
+        option.value = topic;
+        option.textContent = topic;
+        select.appendChild(option);
+    });
+
+    select.addEventListener("change", () => {
+        const value = select.value;
+        filteredWords = value === "all"
+            ? words
+            : words.filter(w => w.topic === value);
+    });
+}
+
+function draw() {
+    if (filteredWords.length === 0) return;
+
+    currentWord = filteredWords[Math.floor(Math.random() * filteredWords.length)];
+
+    const mode = document.getElementById("startMode").value;
+    const types = ["hanzi", "pinyin", "pl"];
+
+    questionType = mode === "random"
+        ? types[Math.floor(Math.random() * types.length)]
+        : mode;
+
+    document.getElementById("question").textContent = currentWord[questionType];
+    document.getElementById("answer").style.display = "none";
+}
+
+function showAnswer() {
+    if (!currentWord) return;
+
+    // Czyścimy pola
+    document.getElementById("ans-hanzi").textContent = "";
+    document.getElementById("ans-pinyin").textContent = "";
+    document.getElementById("ans-pl").textContent = "";
+
+    // Pokazujemy tylko to, co NIE było pytaniem
+    if (questionType !== "hanzi") {
+        document.getElementById("ans-hanzi").textContent = currentWord.hanzi;
+    }
+
+    if (questionType !== "pinyin") {
+        document.getElementById("ans-pinyin").textContent = currentWord.pinyin;
+    }
+
+    if (questionType !== "pl") {
+        document.getElementById("ans-pl").textContent = currentWord.pl;
+    }
+
+    // IFRAME – kolejność pisania
+    const iframe = document.getElementById("stroke-iframe");
+    const container = document.getElementById("stroke-container");
+
+    if (currentWord.hanzi && currentWord.hanzi.length <= 2) {
+        const hanziForURL = encodeURIComponent(currentWord.hanzi.trim());
+        iframe.src = `https://www.writechinese.com/en/hanzi/${hanziForURL}`;
+        container.style.display = "block";
+    } else {
+        iframe.src = "";
+        container.style.display = "none";
+    }
+
+    document.getElementById("answer").style.display = "block";
+
+    // ===== KOMPONENTY ZNAKU =====
+const componentsBox = document.getElementById("components");
+const componentsList = document.getElementById("components-list");
+
+componentsList.innerHTML = "";
+
+if (currentWord.components && currentWord.components.length > 0) {
+    currentWord.components.forEach(c => {
+        const div = document.createElement("div");
+        div.className = "component";
+        div.innerHTML = `
+            <div class="component-char">${c.char}</div>
+            <div class="component-desc">
+                <strong>${c.meaning}</strong><br>
+                <small>${c.note || ""}</small>
+            </div>
+        `;
+        componentsList.appendChild(div);
+    });
+
+    componentsBox.style.display = "block";
+} else {
+    componentsBox.style.display = "none";
+}
+
+}
+</script>
+
+<script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("service-worker.js")
+        .then(() => console.log("Service Worker zarejestrowany"))
+        .catch(err => console.error("SW error:", err));
+    }
+    </script>    
+
+</body>
+</html>
