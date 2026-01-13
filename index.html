@@ -31,6 +31,12 @@ body {
     margin-top: 10px;
 }
 
+#topicSelect {
+    min-width: 220px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
 #answer {
     display: none;
 }
@@ -113,15 +119,63 @@ iframe {
   width: 100%;
   height: 300px;
 }
+
+#menuButton {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#menuPanel {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    width: 220px;
+    background: white;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    z-index: 999;
+}
+
+#menuPanel.hidden {
+    display: none;
+}
+
+.menu-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
 </style>
 </head>
 
 <body>
 
+<!-- MENU BUTTON -->
+<button id="menuButton">☰</button>
+
+<!-- MENU PANEL -->
+<div id="menuPanel" class="hidden">
+    <label class="menu-option">
+        <input type="checkbox" id="autoTtsToggle">
+        🔊 Automatyczne TTS
+    </label>
+</div>
+
 <h1>Nauka chińskiego 🇨🇳</h1>
 
-<select id="topicSelect">
-    <option value="all">Wszystkie tematy</option>
+<label>Tematy (można wybrać kilka):</label><br>
+<select id="topicSelect" multiple size="6">
 </select>
 
 <br>
@@ -251,6 +305,11 @@ function draw() {
 
     document.getElementById("question").textContent = currentWord[questionType];
     document.getElementById("answer").style.display = "none";
+
+    if (autoTtsEnabled && questionType !== "pl") {
+    setTimeout(speak, 300);
+    }
+
 }
 
 function showAnswer() {
@@ -285,6 +344,10 @@ function showAnswer() {
     } else {
         iframe.src = "";
         container.style.display = "none";
+    }
+
+    if (autoTtsEnabled && questionType !== "pl") {
+    setTimeout(speak, 300);
     }
 
     document.getElementById("answer").style.display = "block";
@@ -356,6 +419,25 @@ function speak() {
 speechSynthesis.onvoiceschanged = () => {
     speechSynthesis.getVoices();
 };
+
+const menuButton = document.getElementById("menuButton");
+const menuPanel = document.getElementById("menuPanel");
+const autoTtsToggle = document.getElementById("autoTtsToggle");
+
+// toggle menu
+menuButton.addEventListener("click", () => {
+    menuPanel.classList.toggle("hidden");
+});
+
+// load TTS setting
+let autoTtsEnabled = localStorage.getItem("autoTtsEnabled") === "true";
+autoTtsToggle.checked = autoTtsEnabled;
+
+// save TTS setting
+autoTtsToggle.addEventListener("change", () => {
+    autoTtsEnabled = autoTtsToggle.checked;
+    localStorage.setItem("autoTtsEnabled", autoTtsEnabled);
+});
 
 </script>
 
