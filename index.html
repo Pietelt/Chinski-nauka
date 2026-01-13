@@ -138,6 +138,7 @@ iframe {
 
 <button onclick="draw()">Losuj</button>
 <button onclick="showAnswer()">Pokaż odpowiedź</button>
+<button onclick="speak()">🔊 Wymów</button>
 
 <div id="question" class="hanzi"></div>
 
@@ -172,10 +173,25 @@ let filteredWords = [];
 let currentWord = null;
 let questionType = null;
 
+const STORAGE_KEY = "wordStats";
+let stats = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+let lastWordId = null;
+
 fetch("data.json")
     .then(res => res.json())
     .then(data => {
-        words = data;
+        words = data.map((w, i) => ({
+            ...w,
+            _id: `${w.hanzi}_${i}`
+        }));
+
+        // inicjalizacja statystyk
+        words.forEach(w => {
+            if (!stats[w._id]) stats[w._id] = 0;
+        });
+
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
+
         setupTopics();
         filteredWords = words;
     });
@@ -202,7 +218,29 @@ function setupTopics() {
 function draw() {
     if (filteredWords.length === 0) return;
 
-    currentWord = filteredWords[Math.floor(Math.random() * filteredWords.length)];
+    // usuwamy ostatnie słowo z puli (brak powtórzeń)
+    const pool = filteredWords.filter(w => w._id !== lastWordId);
+
+    // znajdź minimum losowań
+    const minCount = Math.min(...pool.map(w => stats[w._id] || 0));
+
+    // im rzadziej losowane, tym większa waga
+    const weightedPool = [];
+    pool.forEach(w => {
+        const weight = (minCount + 3) - (stats[w._id] || 0);
+        for (let i = 0; i < Math.max(1, weight); i++) {
+            weightedPool.push(w);
+        }
+    });
+
+    currentWord = weightedPool[Math.floor(Math.random() * weightedPool.length)];
+
+    // zapamiętaj ostatnie
+    lastWordId = currentWord._id;
+
+    // zwiększ licznik
+    stats[currentWord._id] = (stats[currentWord._id] || 0) + 1;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
 
     const mode = document.getElementById("startMode").value;
     const types = ["hanzi", "pinyin", "pl"];
@@ -277,6 +315,48 @@ if (currentWord.components && currentWord.components.length > 0) {
 }
 
 }
+
+function speak() {
+    if (!currentWord) return;
+
+    // TTS tylko dla hanzi i pinyin
+    if (questionType === "pl") {
+        alert("TTS działa tylko dla hanzi lub pinyin");
+        return;
+    }
+
+    const text =
+        questionType === "hanzi"
+            ? currentWord.hanzi
+            : currentWord.pinyin;
+
+    if (!text) return;
+
+    // zatrzymaj poprzednie czytanie
+    window.speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "zh-CN";
+    utterance.rate = 0.9;
+    utterance.pitch = 1;
+
+    // wybór chińskiego głosu (jeśli dostępny)
+    const voices = speechSynthesis.getVoices();
+    const zhVoice = voices.find(v =>
+        v.lang.startsWith("zh")
+    );
+
+    if (zhVoice) {
+        utterance.voice = zhVoice;
+    }
+
+    window.speechSynthesis.speak(utterance);
+}
+
+speechSynthesis.onvoiceschanged = () => {
+    speechSynthesis.getVoices();
+};
+
 </script>
 
 <script>
