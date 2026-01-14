@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#d32f2f">
 <title>Nauka chińskiego – tryb tematyczny</title>
@@ -261,12 +263,23 @@ function setupTopics() {
         select.appendChild(option);
     });
 
-    select.addEventListener("change", () => {
-        const value = select.value;
-        filteredWords = value === "all"
-            ? words
-            : words.filter(w => w.topic === value);
-    });
+    select.addEventListener("change", updateFilteredWords);
+
+}
+
+function updateFilteredWords() {
+    const select = document.getElementById("topicSelect");
+
+    const selectedTopics = Array.from(select.selectedOptions)
+        .map(opt => opt.value);
+
+    if (selectedTopics.length === 0 || selectedTopics.includes("all")) {
+        filteredWords = words;
+    } else {
+        filteredWords = words.filter(w =>
+            selectedTopics.includes(w.topic)
+        );
+    }
 }
 
 function draw() {
@@ -438,6 +451,9 @@ autoTtsToggle.addEventListener("change", () => {
     autoTtsEnabled = autoTtsToggle.checked;
     localStorage.setItem("autoTtsEnabled", autoTtsEnabled);
 });
+
+console.log("Wybrane tematy:", selectedTopics);
+console.log("Ilość słów:", filteredWords.length);
 
 </script>
 
