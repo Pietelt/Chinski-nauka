@@ -53,7 +53,6 @@
 
   { "hanzi": "老师", "pinyin": "lǎoshī", "pl": "nauczyciel", "topic": "1F" },
   { "hanzi": "您好", "pinyin": "nín hǎo", "pl": "dzień dobry (grzecznie)", "topic": "1F" },
-  
   {
     "hanzi": "打招呼",
     "pinyin": "dǎ zhāohu",
@@ -323,7 +322,78 @@
     { "hanzi": "妹妹", "pinyin": "mèimei", "pl": "młodsza siostra", "topic": "3B" },
     { "hanzi": "和", "pinyin": "hé", "pl": "i", "topic": "3B" },
     { "hanzi": "英语", "pinyin": "Yīngyǔ", "pl": "język angielski", "topic": "3B" },
-  
+    {
+      "hanzi": "哦",
+      "pinyin": "ò",
+      "pl": "ach, aha (wykrzyknik zrozumienia)",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "一定",
+      "pinyin": "yīdìng",
+      "pl": "na pewno",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "像",
+      "pinyin": "xiàng",
+      "pl": "być podobnym, przypominać",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "多",
+      "pinyin": "duō",
+      "pl": "dużo, wiele",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "这样",
+      "pinyin": "zhèyàng",
+      "pl": "tak, w ten sposób",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "pl": "mówić",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "男",
+      "pinyin": "nán",
+      "pl": "męski",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "男朋友",
+      "pinyin": "nánpéngyou",
+      "pl": "chłopak (partner)",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "真",
+      "pinyin": "zhēn",
+      "pl": "naprawdę",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "帅",
+      "pinyin": "shuài",
+      "pl": "przystojny",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "喜欢",
+      "pinyin": "xǐhuan",
+      "pl": "lubić",
+      "topic": "3A"
+    },
+    {
+      "hanzi": "当然",
+      "pinyin": "dāngrán",
+      "pl": "oczywiście",
+      "topic": "3A"
+    },
     {
       "hanzi": "中学",
       "pinyin": "zhōngxué",
@@ -344,12 +414,14 @@
         { "char": "子", "meaning": "dziecko", "note": "uczeń" }
       ]
     },
+    { "hanzi": "咦", "pinyin": "yí", "pl": "(wykrzyknik wyrażający zdziwienie)", "topic": "3C" },
     { "hanzi": "奇怪", "pinyin": "qíguài", "pl": "dziwny", "topic": "3C" },
     { "hanzi": "女", "pinyin": "nǚ", "pl": "żeński", "topic": "3C" },
     { "hanzi": "女朋友", "pinyin": "nǚ péngyou", "pl": "dziewczyna", "topic": "3C" },
     { "hanzi": "有意思", "pinyin": "yǒu yìsi", "pl": "interesujący", "topic": "3C" },
     { "hanzi": "那", "pinyin": "nà", "pl": "tamten", "topic": "3C" },
     { "hanzi": "汉语", "pinyin": "Hànyǔ", "pl": "język chiński", "topic": "3C" },
+    { "hanzi": "嗯", "pinyin": "n` g", "pl": "(przytaknięcie)", "topic": "3C" },
     {
       "hanzi": "新",
       "pinyin": "xīn",
@@ -395,6 +467,10 @@
     { "hanzi": "明天", "pinyin": "míngtiān", "pl": "jutro", "topic": "3G" },
     { "hanzi": "回头", "pinyin": "huítóu", "pl": "za chwilę", "topic": "3G" },
     { "hanzi": "拜拜", "pinyin": "báibái", "pl": "pa pa", "topic": "3G" },
+    { "hanzi": "它", "pinyin": "tā", "pl": "on, ona, ono (o obiektach innych niż ludzie)", "topic": "3G" },
+    { "hanzi": "小姐", "pinyin": "xiăojiě", "pl": "panna", "topic": "3G" },
+    { "hanzi": "太太", "pinyin": "tàitai", "pl": "pani", "topic": "3G" },
+    { "hanzi": "女士", "pinyin": "nüˇ shì", "pl": "pani", "topic": "3G" },
   
     { "hanzi": "意大利语", "pinyin": "Yìdàlìyǔ", "pl": "język włoski", "topic": "ĆW" },
 
@@ -492,74 +568,6 @@
   { "hanzi": "发展", "pinyin": "fāzhǎn", "pl": "rozwijać", "topic": "4F" },
 
   { "hanzi": "日语", "pinyin": "Rìyǔ", "pl": "język japoński", "topic": "ĆW" },
-  { "hanzi": "中文", "pinyin": "Zhōngwén", "pl": "język chiński", "topic": "ĆW" },
-  
-  { "hanzi": "地址", "pinyin": "dìzhǐ", "pl": "adres", "topic": "5A" },
-  { "hanzi": "电话", "pinyin": "diànhuà", "pl": "telefon", "topic": "5A" },
-  { "hanzi": "号码", "pinyin": "hàomǎ", "pl": "numer", "topic": "5A" },
-  { "hanzi": "住", "pinyin": "zhù", "pl": "mieszkać", "topic": "5A" },
-  { "hanzi": "罗马", "pinyin": "Luómǎ", "pl": "Rzym", "topic": "5A" },
-  { "hanzi": "柏林", "pinyin": "Bólín", "pl": "Berlin", "topic": "5A" },
-  { "hanzi": "父母", "pinyin": "fùmǔ", "pl": "rodzice", "topic": "5A" },
-  { "hanzi": "罗兹", "pinyin": "Luózī", "pl": "Łódź", "topic": "5A" },
-  { "hanzi": "克拉科夫", "pinyin": "Kèlākēfū", "pl": "Kraków", "topic": "5A" },
-  { "hanzi": "格但斯克", "pinyin": "Gédànsīkè", "pl": "Gdańsk", "topic": "5A" },
-  { "hanzi": "弗罗茨瓦夫", "pinyin": "Fúluócíwǎfū", "pl": "Wrocław", "topic": "5A" },
-  { "hanzi": "哈丽娜", "pinyin": "Hālìnà", "pl": "Halina (imię)", "topic": "5A" },
-  { "hanzi": "艾娃", "pinyin": "Àiwá", "pl": "Ewa (imię)", "topic": "5A" },
-
-  { "hanzi": "零", "pinyin": "líng", "pl": "zero", "topic": "5B" },
-  { "hanzi": "一", "pinyin": "yī", "pl": "jeden", "topic": "5B" },
-  { "hanzi": "二", "pinyin": "èr", "pl": "dwa", "topic": "5B" },
-  { "hanzi": "三", "pinyin": "sān", "pl": "trzy", "topic": "5B" },
-  { "hanzi": "四", "pinyin": "sì", "pl": "cztery", "topic": "5B" },
-  { "hanzi": "五", "pinyin": "wǔ", "pl": "pięć", "topic": "5B" },
-  { "hanzi": "六", "pinyin": "liù", "pl": "sześć", "topic": "5B" },
-  { "hanzi": "七", "pinyin": "qī", "pl": "siedem", "topic": "5B" },
-  { "hanzi": "八", "pinyin": "bā", "pl": "osiem", "topic": "5B" },
-  { "hanzi": "九", "pinyin": "jiǔ", "pl": "dziewięć", "topic": "5B" },
-  { "hanzi": "十", "pinyin": "shí", "pl": "dziesięć", "topic": "5B" },
-  { "hanzi": "百", "pinyin": "bǎi", "pl": "sto", "topic": "5B" },
-
-  { "hanzi": "几", "pinyin": "jǐ", "pl": "ile", "topic": "5C" },
-  { "hanzi": "号", "pinyin": "hào", "pl": "numer", "topic": "5C" },
-  { "hanzi": "楼", "pinyin": "lóu", "pl": "budynek", "topic": "5C" },
-  { "hanzi": "房间", "pinyin": "fángjiān", "pl": "pokój", "topic": "5C" },
-  { "hanzi": "多少", "pinyin": "duōshao", "pl": "ile", "topic": "5C" },
-  { "hanzi": "机房", "pinyin": "jīfáng", "pl": "pracownia komputerowa", "topic": "5C" },
-  { "hanzi": "层", "pinyin": "céng", "pl": "piętro", "topic": "5C" },
-  { "hanzi": "清楚", "pinyin": "qīngchu", "pl": "wyraźny", "topic": "5C" },
-  { "hanzi": "好像", "pinyin": "hǎoxiàng", "pl": "wydaje się, że", "topic": "5C" },
-  { "hanzi": "想", "pinyin": "xiǎng", "pl": "myśleć", "topic": "5C" },
-  { "hanzi": "应该", "pinyin": "yīnggāi", "pl": "powinno się", "topic": "5C" },
-  { "hanzi": "实验室", "pinyin": "shíyànshì", "pl": "laboratorium", "topic": "5C" },
-  { "hanzi": "不客气", "pinyin": "bù kèqi", "pl": "nie ma za co", "topic": "5C" },
-  { "hanzi": "外国", "pinyin": "wàiguó", "pl": "zagranica", "topic": "5C" },
-  { "hanzi": "留学生", "pinyin": "liúxuéshēng", "pl": "student zagraniczny", "topic": "5C" },
-  { "hanzi": "宿舍", "pinyin": "sùshè", "pl": "akademik", "topic": "5C" },
-
-  { "hanzi": "要", "pinyin": "yào", "pl": "chcieć, potrzebować", "topic": "5E" },
-  { "hanzi": "办公室", "pinyin": "bàngōngshì", "pl": "biuro", "topic": "5E" },
-  { "hanzi": "请", "pinyin": "qǐng", "pl": "prosić", "topic": "5E" },
-  { "hanzi": "等", "pinyin": "děng", "pl": "czekać", "topic": "5E" },
-  { "hanzi": "有", "pinyin": "yǒu", "pl": "mieć", "topic": "5E" },
-  { "hanzi": "手机", "pinyin": "shǒujī", "pl": "telefon komórkowy", "topic": "5E" },
-
-  { "hanzi": "打", "pinyin": "dǎ", "pl": "robić", "topic": "5F" },
-  { "hanzi": "发", "pinyin": "fā", "pl": "wysyłać", "topic": "5F" },
-  { "hanzi": "传真", "pinyin": "chuánzhēn", "pl": "faks", "topic": "5F" },
-  { "hanzi": "短信", "pinyin": "duǎnxìn", "pl": "SMS", "topic": "5F" },
-  { "hanzi": "邮件", "pinyin": "yóujiàn", "pl": "e-mail", "topic": "5F" },
-  { "hanzi": "写", "pinyin": "xiě", "pl": "pisać", "topic": "5F" },
-  { "hanzi": "信", "pinyin": "xìn", "pl": "list", "topic": "5F" },
-  { "hanzi": "联系", "pinyin": "liánxì", "pl": "kontaktować się", "topic": "5F" },
-  { "hanzi": "方便", "pinyin": "fāngbiàn", "pl": "wygodny", "topic": "5F" },
-  { "hanzi": "邮箱", "pinyin": "yóuxiāng", "pl": "skrzynka mailowa", "topic": "5F" },
-
-  { "hanzi": "名片", "pinyin": "míngpiàn", "pl": "wizytówka", "topic": "5G" },
-  { "hanzi": "住址", "pinyin": "zhùzhǐ", "pl": "adres zamieszkania", "topic": "5G" },
-
-  { "hanzi": "感谢", "pinyin": "gǎnxiè", "pl": "dziękować", "topic": "5H" }
+  { "hanzi": "中文", "pinyin": "Zhōngwén", "pl": "język chiński", "topic": "ĆW" }
   ]
-
   
