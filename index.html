@@ -165,6 +165,14 @@ iframe {
 #draw-canvas {
     margin-top: 10px;
 }
+#draw-canvas {
+    border: 2px solid #ccc;
+    background: #fff;
+    touch-action: none;
+    pointer-events: auto;
+}
+
+
 </style>
 </head>
 
@@ -505,57 +513,6 @@ function toggleDrawSection() {
 console.log("Wybrane tematy:", selectedTopics);
 console.log("Ilość słów:", filteredWords.length);
 
-const canvas = document.getElementById("draw-canvas");
-const ctx = canvas.getContext("2d");
-
-let drawing = false;
-
-// styl pisania
-ctx.lineWidth = 4;
-ctx.lineCap = "round";
-ctx.strokeStyle = "#000";
-
-// MYSZ
-canvas.addEventListener("mousedown", e => {
-    drawing = true;
-    ctx.beginPath();
-    ctx.moveTo(e.offsetX, e.offsetY);
-});
-
-canvas.addEventListener("mousemove", e => {
-    if (!drawing) return;
-    ctx.lineTo(e.offsetX, e.offsetY);
-    ctx.stroke();
-});
-
-canvas.addEventListener("mouseup", () => drawing = false);
-canvas.addEventListener("mouseleave", () => drawing = false);
-
-// DOTYK (ANDROID / TABLET)
-canvas.addEventListener("touchstart", e => {
-    e.preventDefault();
-    drawing = true;
-    const t = e.touches[0];
-    const rect = canvas.getBoundingClientRect();
-    ctx.beginPath();
-    ctx.moveTo(t.clientX - rect.left, t.clientY - rect.top);
-});
-
-canvas.addEventListener("touchmove", e => {
-    e.preventDefault();
-    if (!drawing) return;
-    const t = e.touches[0];
-    const rect = canvas.getBoundingClientRect();
-    ctx.lineTo(t.clientX - rect.left, t.clientY - rect.top);
-    ctx.stroke();
-});
-
-canvas.addEventListener("touchend", () => drawing = false);
-
-// CZYSZCZENIE
-function clearCanvas() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-}
 </script>
 
 <script>
@@ -566,6 +523,6 @@ function clearCanvas() {
         .catch(err => console.error("SW error:", err));
     }
     </script>    
-
+    <script src="script.js"></script>
 </body>
 </html>
