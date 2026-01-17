@@ -158,6 +158,13 @@ iframe {
     gap: 8px;
     font-size: 16px;
 }
+#draw-section {
+    text-align: center;
+}
+
+#draw-canvas {
+    margin-top: 10px;
+}
 </style>
 </head>
 
@@ -171,6 +178,8 @@ iframe {
     <label class="menu-option">
         <input type="checkbox" id="autoTtsToggle">
         🔊 Automatyczne TTS
+        <input type="checkbox" id="toggleDraw" onchange="toggleDrawSection()">
+        Pole do rysowania
     </label>
 </div>
 
@@ -198,6 +207,26 @@ iframe {
 
 <div id="question" class="hanzi"></div>
 
+    <!-- SEKCJA RYSOWANIA -->
+    <div id="draw-section" style="display:none; margin-top:30px;">
+        <h3>✍️ Ćwicz pisanie</h3>
+
+        <canvas
+            id="draw-canvas"
+            width="300"
+            height="300"
+            style="
+                border:2px solid #ccc;
+                border-radius:12px;
+                background:white;
+                touch-action:none;
+            ">
+        </canvas>
+
+        <br>
+        <button onclick="clearCanvas()">Wyczyść</button>
+    </div>
+
 <div id="answer">
     <div class="answer-layout">
 
@@ -221,6 +250,8 @@ iframe {
         </div>
 
     </div>
+    
+
 </div>
 
 <script>
@@ -322,6 +353,18 @@ function draw() {
     if (autoTtsEnabled && questionType !== "pl") {
     setTimeout(speak, 300);
     }
+
+        // pokaż pole rysowania, jeśli włączone w menu
+    const drawToggle = document.getElementById("toggleDraw");
+    const drawSection = document.getElementById("draw-section");
+
+    if (drawToggle && drawToggle.checked) {
+        drawSection.style.display = "block";
+    }   
+
+    // zawsze czyść canvas przy nowym losowaniu
+    clearCanvas();
+
 
 }
 
@@ -452,9 +495,67 @@ autoTtsToggle.addEventListener("change", () => {
     localStorage.setItem("autoTtsEnabled", autoTtsEnabled);
 });
 
+function toggleDrawSection() {
+    const section = document.getElementById("draw-section");
+    const checkbox = document.getElementById("toggleDraw");
+
+    section.style.display = checkbox.checked ? "block" : "none";
+}
+
 console.log("Wybrane tematy:", selectedTopics);
 console.log("Ilość słów:", filteredWords.length);
 
+const canvas = document.getElementById("draw-canvas");
+const ctx = canvas.getContext("2d");
+
+let drawing = false;
+
+// styl pisania
+ctx.lineWidth = 4;
+ctx.lineCap = "round";
+ctx.strokeStyle = "#000";
+
+// MYSZ
+canvas.addEventListener("mousedown", e => {
+    drawing = true;
+    ctx.beginPath();
+    ctx.moveTo(e.offsetX, e.offsetY);
+});
+
+canvas.addEventListener("mousemove", e => {
+    if (!drawing) return;
+    ctx.lineTo(e.offsetX, e.offsetY);
+    ctx.stroke();
+});
+
+canvas.addEventListener("mouseup", () => drawing = false);
+canvas.addEventListener("mouseleave", () => drawing = false);
+
+// DOTYK (ANDROID / TABLET)
+canvas.addEventListener("touchstart", e => {
+    e.preventDefault();
+    drawing = true;
+    const t = e.touches[0];
+    const rect = canvas.getBoundingClientRect();
+    ctx.beginPath();
+    ctx.moveTo(t.clientX - rect.left, t.clientY - rect.top);
+});
+
+canvas.addEventListener("touchmove", e => {
+    e.preventDefault();
+    if (!drawing) return;
+    const t = e.touches[0];
+    const rect = canvas.getBoundingClientRect();
+    ctx.lineTo(t.clientX - rect.left, t.clientY - rect.top);
+    ctx.stroke();
+});
+
+canvas.addEventListener("touchend", () => drawing = false);
+
+// CZYSZCZENIE
+function clearCanvas() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
 </script>
 
 <script>
