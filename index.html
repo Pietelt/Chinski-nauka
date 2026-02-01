@@ -202,6 +202,7 @@ iframe {
 <label for="startMode">Początkowo pokazuj:</label>
 <select id="startMode">
     <option value="hanzi">Hanzi</option>
+    <option value="hanzi-missing">Hanzi – brakujący znak</option>
     <option value="pinyin">Pinyin</option>
     <option value="pl">Polskie tłumaczenie</option>
     <option value="random">Losowo</option>
@@ -263,6 +264,7 @@ iframe {
 </div>
 
 <script>
+let missingIndex = null;
 let words = [];
 let filteredWords = [];
 let currentWord = null;
@@ -322,6 +324,17 @@ function updateFilteredWords() {
 }
 
 function draw() {
+    // 🔽 ZAWSZE chowamy odpowiedź
+    document.getElementById("answer").style.display = "none";
+
+    // (opcjonalnie) czyścimy zawartość odpowiedzi
+    document.getElementById("ans-hanzi").textContent = "";
+    document.getElementById("ans-pinyin").textContent = "";
+    document.getElementById("ans-pl").textContent = "";
+
+    // jeżeli masz pole do rysowania – czyścimy je
+    clearCanvas?.();
+    
     if (filteredWords.length === 0) return;
 
     // usuwamy ostatnie słowo z puli (brak powtórzeń)
@@ -339,28 +352,42 @@ function draw() {
         }
     });
 
+    const mode = document.getElementById("startMode").value;
+
+// 🔹 TRYB: BRAKUJĄCY ZNAK
+if (mode === "hanzi-missing") {
+    const multiCharWords = filteredWords.filter(
+        w => w.hanzi && w.hanzi.length >= 2
+    );
+
+    if (multiCharWords.length === 0) {
+        alert("Brak słów złożonych z 2+ znaków");
+        return;
+    }
+
+    currentWord = multiCharWords[Math.floor(Math.random() * multiCharWords.length)];
+
+    // losowy znak do ukrycia
+    missingIndex = Math.floor(Math.random() * currentWord.hanzi.length);
+
+    const chars = currentWord.hanzi.split("");
+    chars[missingIndex] = "☐";
+
+    questionType = "hanzi-missing";
+    document.getElementById("question").textContent = chars.join("");
+
+} else {
+    // 🔹 NORMALNE TRYBY (jak było)
     currentWord = weightedPool[Math.floor(Math.random() * weightedPool.length)];
 
-    // zapamiętaj ostatnie
-    lastWordId = currentWord._id;
-
-    // zwiększ licznik
-    stats[currentWord._id] = (stats[currentWord._id] || 0) + 1;
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
-
-    const mode = document.getElementById("startMode").value;
-    const types = ["hanzi", "pinyin", "pl"];
-
-    questionType = mode === "random"
-        ? types[Math.floor(Math.random() * types.length)]
-        : mode;
+    questionType =
+        mode === "random"
+            ? ["hanzi", "pinyin", "pl"][Math.floor(Math.random() * 3)]
+            : mode;
 
     document.getElementById("question").textContent = currentWord[questionType];
-    document.getElementById("answer").style.display = "none";
+}
 
-    if (autoTtsEnabled && questionType !== "pl") {
-    setTimeout(speak, 300);
-    }
 
         // pokaż pole rysowania, jeśli włączone w menu
     const drawToggle = document.getElementById("toggleDraw");
