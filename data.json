@@ -931,7 +931,7 @@
 {
   "hanzi": "差",
   "pinyin": "chà",
-  "pl": "spóźniony / brakować do",
+  "pl": "do",
   "topic": "Fonetyka1"
 },
 {
@@ -943,7 +943,7 @@
 {
   "hanzi": "晚",
   "pinyin": "wǎn",
-  "pl": "późno",
+  "pl": "później",
   "topic": "Fonetyka1"
 },
 {
@@ -1021,7 +1021,7 @@
 {
   "hanzi": "左右",
   "pinyin": "zuǒyòu",
-  "pl": "około",
+  "pl": "o (czymś)",
   "topic": "Fonetyka1"
 },
 {
@@ -1033,7 +1033,7 @@
 {
   "hanzi": "中午",
   "pinyin": "zhōngwǔ",
-  "pl": "południe",
+  "pl": "południe (pora dnia)",
   "topic": "Fonetyka1"
 },
 {
@@ -1068,5 +1068,6 @@
 }
   ]
   
+
 
 
