@@ -885,6 +885,187 @@
   { "hanzi": "罗伯特·库比卡", "pinyin": "Luóbótè Kùbǐkǎ", "pl": "Robert Kubica", "topic": "8F" },
   { "hanzi": "奥泰莉亚·叶德热恰克", "pinyin": "Àotàilìyà Yèdérèqiàkè", "pl": "Otylia Jędrzejczak", "topic": "8F" },
   { "hanzi": "拉法尔·布雷查兹", "pinyin": "Lāfǎěr Bùléicházī", "pl": "Rafał Blechacz", "topic": "8F" },
-  { "hanzi": "雷扎德·卡布辛斯基", "pinyin": "Léizhádé Kǎbùxīnsījī", "pl": "Ryszard Kapuściński", "topic": "8F" }
+  { "hanzi": "雷扎德·卡布辛斯基", "pinyin": "Léizhádé Kǎbùxīnsījī", "pl": "Ryszard Kapuściński", "topic": "8F" },
+  {
+  "hanzi": "号",
+  "pinyin": "hào",
+  "pl": "data",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "星期日",
+  "pinyin": "xīngqīrì",
+  "pl": "niedziela",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "生日",
+  "pinyin": "shēngrì",
+  "pl": "urodziny",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "马上",
+  "pinyin": "mǎshàng",
+  "pl": "natychmiast",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "晚会",
+  "pinyin": "wǎnhuì",
+  "pl": "impreza, przyjęcie",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "酒吧",
+  "pinyin": "jiǔbā",
+  "pl": "bar",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "同意",
+  "pinyin": "tóngyì",
+  "pl": "zgadzać się",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "差",
+  "pinyin": "chà",
+  "pl": "spóźniony / brakować do",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "刻",
+  "pinyin": "kè",
+  "pl": "kwadrans",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "晚",
+  "pinyin": "wǎn",
+  "pl": "późno",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "得",
+  "pinyin": "děi",
+  "pl": "musieć",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "一会儿",
+  "pinyin": "yīhuìr",
+  "pl": "chwila",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "吃饭",
+  "pinyin": "chīfàn",
+  "pl": "jeść posiłek",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "约会",
+  "pinyin": "yuēhuì",
+  "pl": "randka / spotkanie",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "哦",
+  "pinyin": "ò",
+  "pl": "och / aha",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "球",
+  "pinyin": "qiú",
+  "pl": "piłka",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "后天",
+  "pinyin": "hòutiān",
+  "pl": "pojutrze",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "睡",
+  "pinyin": "shuì",
+  "pl": "iść spać",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "有点儿",
+  "pinyin": "yǒudiǎnr",
+  "pl": "trochę",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "困",
+  "pinyin": "kùn",
+  "pl": "senny",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "平时",
+  "pinyin": "píngshí",
+  "pl": "zwykle",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "睡觉",
+  "pinyin": "shuìjiào",
+  "pl": "spać",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "左右",
+  "pinyin": "zuǒyòu",
+  "pl": "około",
+  "topic": "9A"
+},
+{
+  "hanzi": "周末",
+  "pinyin": "zhōumò",
+  "pl": "weekend",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "中午",
+  "pinyin": "zhōngwǔ",
+  "pl": "południe",
+  "topic": "Fonetyka1"
+},
+{
+  "hanzi": "王军",
+  "pinyin": "Wáng Jūn",
+  "pl": "Wang Jun (imię)",
+  "topic": "Fonetyka1"
+},
+  {
+  "hanzi": "上网",
+  "pinyin": "shàngwǎng",
+  "pl": "przegldać internet",
+  "topic": "Fonetyka1"
+},
+  {
+  "hanzi": "起床",
+  "pinyin": "qǐchuáng",
+  "pl": "wstawać (ze snu)",
+  "topic": "Fonetyka1"
+},
+  {
+  "hanzi": "上课",
+  "pinyin": "shàngkè",
+  "pl": "uczęszczać lekcje",
+  "topic": "Fonetyka1"
+},
+  {
+  "hanzi": "洗澡",
+  "pinyin": "xǐzǎo",
+  "pl": "brać prysznic",
+  "topic": "Fonetyka1"
+}
   ]
   
+
