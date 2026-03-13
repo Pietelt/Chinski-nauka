@@ -1065,7 +1065,36 @@
   "pinyin": "xǐzǎo",
   "pl": "brać prysznic",
   "topic": "Fonetyka1"
-}
+},
+  { "hanzi": "安徽", "pinyin": "Ānhuī", "pl": "Anhui", "topic": "Prowincje" },
+{ "hanzi": "福建", "pinyin": "Fújiàn", "pl": "Fujian", "topic": "Prowincje" },
+{ "hanzi": "甘肃", "pinyin": "Gānsù", "pl": "Gansu", "topic": "Prowincje" },
+{ "hanzi": "广东", "pinyin": "Guǎngdōng", "pl": "Guangdong", "topic": "Prowincje" },
+{ "hanzi": "海南", "pinyin": "Hǎinán", "pl": "Hainan", "topic": "Prowincje" },
+{ "hanzi": "河北", "pinyin": "Héběi", "pl": "Hebei", "topic": "Prowincje" },
+{ "hanzi": "黑龙江", "pinyin": "Hēilóngjiāng", "pl": "Heilongjiang", "topic": "Prowincje" },
+{ "hanzi": "河南", "pinyin": "Hénán", "pl": "Henan", "topic": "Prowincje" },
+{ "hanzi": "湖北", "pinyin": "Húběi", "pl": "Hubei", "topic": "Prowincje" },
+{ "hanzi": "湖南", "pinyin": "Húnán", "pl": "Hunan", "topic": "Prowincje" },
+{ "hanzi": "江苏", "pinyin": "Jiāngsū", "pl": "Jiangsu", "topic": "Prowincje" },
+{ "hanzi": "江西", "pinyin": "Jiāngxī", "pl": "Jiangxi", "topic": "Prowincje" },
+{ "hanzi": "吉林", "pinyin": "Jílín", "pl": "Jilin", "topic": "Prowincje" },
+{ "hanzi": "云南", "pinyin": "Yúnnán", "pl": "Yunnan", "topic": "Prowincje" },
+{ "hanzi": "贵州", "pinyin": "Guìzhōu", "pl": "Guizhou", "topic": "Prowincje" },
+{ "hanzi": "辽宁", "pinyin": "Liáoníng", "pl": "Liaoning", "topic": "Prowincje" },
+{ "hanzi": "青海", "pinyin": "Qīnghǎi", "pl": "Qinghai", "topic": "Prowincje" },
+{ "hanzi": "陕西", "pinyin": "Shǎnxī", "pl": "Shaanxi", "topic": "Prowincje" },
+{ "hanzi": "山西", "pinyin": "Shānxī", "pl": "Shanxi", "topic": "Prowincje" },
+{ "hanzi": "四川", "pinyin": "Sìchuān", "pl": "Syczuan", "topic": "Prowincje" },
+{ "hanzi": "山东", "pinyin": "Shāndōng", "pl": "Szantung", "topic": "Prowincje" },
+{ "hanzi": "浙江", "pinyin": "Zhèjiāng", "pl": "Zhejiang", "topic": "Prowincje" },
+{ "hanzi": "广西", "pinyin": "Guǎngxī", "pl": "Kuangsi", "topic": "Prowincje" },
+{ "hanzi": "内蒙古", "pinyin": "Nèiměnggǔ", "pl": "Mongolia Wewnętrzna", "topic": "Prowincje" },
+{ "hanzi": "宁夏", "pinyin": "Níngxià", "pl": "Ningxia", "topic": "Prowincje" },
+{ "hanzi": "新疆", "pinyin": "Xīnjiāng", "pl": "Sinciang", "topic": "Prowincje" },
+{ "hanzi": "西藏", "pinyin": "Xīzàng", "pl": "Tybet", "topic": "Prowincje" },
+{ "hanzi": "香港", "pinyin": "Xiānggǎng", "pl": "Hongkong", "topic": "Prowincje" },
+{ "hanzi": "澳门", "pinyin": "Àomén", "pl": "Makau", "topic": "Prowincje" }
   ]
   
 
