@@ -886,6 +886,66 @@
   { "hanzi": "奥泰莉亚·叶德热恰克", "pinyin": "Àotàilìyà Yèdérèqiàkè", "pl": "Otylia Jędrzejczak", "topic": "8F" },
   { "hanzi": "拉法尔·布雷查兹", "pinyin": "Lāfǎěr Bùléicházī", "pl": "Rafał Blechacz", "topic": "8F" },
   { "hanzi": "雷扎德·卡布辛斯基", "pinyin": "Léizhádé Kǎbùxīnsījī", "pl": "Ryszard Kapuściński", "topic": "8F" },
+  
+{ "hanzi": "人物", "pinyin": "rénwù", "pl": "osoba", "topic": "9A" },
+{ "hanzi": "描写", "pinyin": "miáoxiě", "pl": "opisywać", "topic": "9A" },
+
+{ "hanzi": "个子", "pinyin": "gèzi", "pl": "wzrost", "topic": "9A" },
+{ "hanzi": "身材", "pinyin": "shēncái", "pl": "sylwetka", "topic": "9A" },
+{ "hanzi": "胖", "pinyin": "pàng", "pl": "gruby, otyły", "topic": "9A" },
+{ "hanzi": "瘦", "pinyin": "shòu", "pl": "szczupły, chudy", "topic": "9A" },
+
+{ "hanzi": "穿", "pinyin": "chuān", "pl": "ubierać", "topic": "9A" },
+{ "hanzi": "着", "pinyin": "zhe", "pl": "partykuła aspektualna", "topic": "9A" },
+
+{ "hanzi": "红色", "pinyin": "hóngsè", "pl": "kolor czerwony", "topic": "9A" },
+{ "hanzi": "衣服", "pinyin": "yīfu", "pl": "ubranie", "topic": "9A" },
+{ "hanzi": "条", "pinyin": "tiáo", "pl": "klasyfikator do ubrań", "topic": "9A" },
+{ "hanzi": "蓝色", "pinyin": "lánsè", "pl": "kolor niebieski", "topic": "9A" },
+{ "hanzi": "裤子", "pinyin": "kùzi", "pl": "spodnie", "topic": "9A" },
+
+{ "hanzi": "英俊", "pinyin": "yīngjùn", "pl": "przystojny", "topic": "9A" },
+{ "hanzi": "矮", "pinyin": "ǎi", "pl": "niski", "topic": "9A" },
+{ "hanzi": "苗条", "pinyin": "miáotiao", "pl": "zgrabna", "topic": "9A" },
+
+{ "hanzi": "黑色", "pinyin": "hēisè", "pl": "kolor czarny", "topic": "9A" },
+{ "hanzi": "短", "pinyin": "duǎn", "pl": "krótki", "topic": "9A" },
+{ "hanzi": "头发", "pinyin": "tóufa", "pl": "włosy", "topic": "9A" },
+{ "hanzi": "发", "pinyin": "fà", "pl": "włos", "topic": "9A" },
+
+{ "hanzi": "梳", "pinyin": "shū", "pl": "czesać", "topic": "9A" },
+{ "hanzi": "整齐", "pinyin": "zhěngqí", "pl": "uporządkowany", "topic": "9A" },
+{ "hanzi": "打扮", "pinyin": "dǎban", "pl": "stroić się", "topic": "9A" },
+
+{ "hanzi": "紫色", "pinyin": "zǐsè", "pl": "kolor fioletowy", "topic": "9A" },
+{ "hanzi": "连衣裙", "pinyin": "liányīqún", "pl": "sukienka", "topic": "9A" },
+{ "hanzi": "高跟鞋", "pinyin": "gāogēnxié", "pl": "buty na obcasie", "topic": "9A" },
+{ "hanzi": "衬衫", "pinyin": "chènshān", "pl": "koszula", "topic": "9A" },
+
+{ "hanzi": "灰色", "pinyin": "huīsè", "pl": "kolor szary", "topic": "9A" },
+{ "hanzi": "毛衣", "pinyin": "máoyī", "pl": "sweter", "topic": "9A" },
+{ "hanzi": "上衣", "pinyin": "shàngyī", "pl": "górna część ubrania", "topic": "9A" },
+
+{ "hanzi": "细", "pinyin": "xì", "pl": "cienki", "topic": "9A" },
+{ "hanzi": "长", "pinyin": "cháng", "pl": "długi", "topic": "9A" },
+
+{ "hanzi": "眼睛", "pinyin": "yǎnjing", "pl": "oczy", "topic": "9A" },
+{ "hanzi": "脸", "pinyin": "liǎn", "pl": "twarz", "topic": "9A" },
+{ "hanzi": "鼻子", "pinyin": "bízi", "pl": "nos", "topic": "9A" },
+{ "hanzi": "嘴唇", "pinyin": "zuǐchún", "pl": "usta", "topic": "9A" },
+{ "hanzi": "眼镜", "pinyin": "yǎnjìng", "pl": "okulary", "topic": "9A" },
+{ "hanzi": "耳朵", "pinyin": "ěrduo", "pl": "ucho", "topic": "9A" },
+
+{ "hanzi": "圆", "pinyin": "yuán", "pl": "okrągły", "topic": "9A" },
+
+{ "hanzi": "绿", "pinyin": "lǜ", "pl": "zielony", "topic": "9A" },
+{ "hanzi": "白", "pinyin": "bái", "pl": "biały", "topic": "9A" },
+{ "hanzi": "黄", "pinyin": "huáng", "pl": "żółty", "topic": "9A" },
+{ "hanzi": "棕色", "pinyin": "zōngsè", "pl": "kolor brązowy", "topic": "9A" },
+
+{ "hanzi": "T恤衫", "pinyin": "T xù shān", "pl": "T-shirt", "topic": "9A" },
+{ "hanzi": "套", "pinyin": "tào", "pl": "komplet (klasyfikator)", "topic": "9A" },
+{ "hanzi": "西装", "pinyin": "xīzhuāng", "pl": "garnitur", "topic": "9A" },
   {
   "hanzi": "号",
   "pinyin": "hào",
