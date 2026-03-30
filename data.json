@@ -963,6 +963,52 @@
 { "hanzi": "病", "pinyin": "bìng", "pl": "choroba", "topic": "9B" },
 { "hanzi": "手术", "pinyin": "shǒushù", "pl": "operacja", "topic": "9B" },
 { "hanzi": "病人", "pinyin": "bìngrén", "pl": "pacjent", "topic": "9B" },
+  
+{ "hanzi": "哲学", "pinyin": "zhéxué", "pl": "filozofia", "topic": "9C" },
+{ "hanzi": "研究", "pinyin": "yánjiū", "pl": "badać", "topic": "9C" },
+{ "hanzi": "老子", "pinyin": "Lǎozi", "pl": "Laozi", "topic": "9C" },
+{ "hanzi": "思想", "pinyin": "sīxiǎng", "pl": "idee", "topic": "9C" },
+{ "hanzi": "家", "pinyin": "jiā", "pl": "klasyfikator do przedsiębiorstw", "topic": "9C" },
+{ "hanzi": "贸易", "pinyin": "màoyì", "pl": "handel", "topic": "9C" },
+{ "hanzi": "北方", "pinyin": "běifāng", "pl": "północ", "topic": "9C" },
+
+{ "hanzi": "性格", "pinyin": "xìnggé", "pl": "charakter", "topic": "9C" },
+{ "hanzi": "随和", "pinyin": "suíhe", "pl": "sympatyczny", "topic": "9C" },
+{ "hanzi": "热闹", "pinyin": "rènao", "pl": "gwarny", "topic": "9C" },
+{ "hanzi": "平时", "pinyin": "píngshí", "pl": "zwykle", "topic": "9C" },
+{ "hanzi": "熟悉", "pinyin": "shúxī", "pl": "dobrze znać", "topic": "9C" },
+{ "hanzi": "整", "pinyin": "zhěng", "pl": "cały", "topic": "9C" },
+{ "hanzi": "可靠", "pinyin": "kěkào", "pl": "godny zaufania", "topic": "9C" },
+
+{ "hanzi": "算数", "pinyin": "suànshù", "pl": "dotrzymywać słowa", "topic": "9C" },
+{ "hanzi": "开朗", "pinyin": "kāilǎng", "pl": "pogodny", "topic": "9C" },
+{ "hanzi": "参加", "pinyin": "cānjiā", "pl": "uczestniczyć", "topic": "9C" },
+{ "hanzi": "集体", "pinyin": "jítǐ", "pl": "zespół", "topic": "9C" },
+{ "hanzi": "活动", "pinyin": "huódòng", "pl": "aktywność", "topic": "9C" },
+
+{ "hanzi": "爱", "pinyin": "ài", "pl": "kochać", "topic": "9C" },
+{ "hanzi": "乐观", "pinyin": "lèguān", "pl": "optymistyczny", "topic": "9C" },
+{ "hanzi": "开玩笑", "pinyin": "kāi wánxiào", "pl": "żartować", "topic": "9C" },
+{ "hanzi": "自信", "pinyin": "zìxìn", "pl": "pewność siebie", "topic": "9C" },
+{ "hanzi": "有的", "pinyin": "yǒude", "pl": "niektórzy", "topic": "9C" },
+
+{ "hanzi": "批评", "pinyin": "pīpíng", "pl": "krytykować", "topic": "9C" },
+{ "hanzi": "改变", "pinyin": "gǎibiàn", "pl": "zmieniać", "topic": "9C" },
+{ "hanzi": "计划", "pinyin": "jìhuà", "pl": "plan", "topic": "9C" },
+{ "hanzi": "激动", "pinyin": "jīdòng", "pl": "podekscytowany", "topic": "9C" },
+{ "hanzi": "成为", "pinyin": "chéngwéi", "pl": "stać się", "topic": "9C" },
+
+{ "hanzi": "外向", "pinyin": "wàixiàng", "pl": "ekstrawertyczny", "topic": "9C" },
+{ "hanzi": "内向", "pinyin": "nèixiàng", "pl": "introwertyczny", "topic": "9C" },
+{ "hanzi": "打交道", "pinyin": "dǎ jiāodào", "pl": "utrzymywać relacje", "topic": "9C" },
+
+{ "hanzi": "卷", "pinyin": "juǎn", "pl": "skręcać się", "topic": "9D" },
+{ "hanzi": "夹克", "pinyin": "jiākè", "pl": "kurtka", "topic": "9D" },
+{ "hanzi": "运动衣", "pinyin": "yùndòngyī", "pl": "dres", "topic": "9D" },
+
+{ "hanzi": "紧张", "pinyin": "jǐnzhāng", "pl": "stresujący", "topic": "9E" },
+
+{ "hanzi": "裙子", "pinyin": "qúnzi", "pl": "spódnica", "topic": "ĆW" },
   {
   "hanzi": "号",
   "pinyin": "hào",
