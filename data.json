@@ -946,6 +946,23 @@
 { "hanzi": "T恤衫", "pinyin": "T xù shān", "pl": "T-shirt", "topic": "9A" },
 { "hanzi": "套", "pinyin": "tào", "pl": "komplet (klasyfikator)", "topic": "9A" },
 { "hanzi": "西装", "pinyin": "xīzhuāng", "pl": "garnitur", "topic": "9A" },
+
+{ "hanzi": "戴", "pinyin": "dài", "pl": "nosić (na głowie, nosie)", "topic": "9B" },
+{ "hanzi": "实习生", "pinyin": "shíxíshēng", "pl": "praktykant", "topic": "9B" },
+{ "hanzi": "积极", "pinyin": "jījí", "pl": "aktywny", "topic": "9B" },
+{ "hanzi": "办", "pinyin": "bàn", "pl": "załatwiać", "topic": "9B" },
+
+{ "hanzi": "医术", "pinyin": "yīshù", "pl": "sztuka medyczna", "topic": "9B" },
+{ "hanzi": "知识", "pinyin": "zhīshi", "pl": "wiedza", "topic": "9B" },
+{ "hanzi": "丰富", "pinyin": "fēngfù", "pl": "bogaty", "topic": "9B" },
+{ "hanzi": "认真", "pinyin": "rènzhēn", "pl": "sumienny", "topic": "9B" },
+
+{ "hanzi": "所", "pinyin": "suǒ", "pl": "klasyfikator do szkół i szpitali", "topic": "9B" },
+
+{ "hanzi": "治疗", "pinyin": "zhìliáo", "pl": "leczyć", "topic": "9B" },
+{ "hanzi": "病", "pinyin": "bìng", "pl": "choroba", "topic": "9B" },
+{ "hanzi": "手术", "pinyin": "shǒushù", "pl": "operacja", "topic": "9B" },
+{ "hanzi": "病人", "pinyin": "bìngrén", "pl": "pacjent", "topic": "9B" },
   {
   "hanzi": "号",
   "pinyin": "hào",
