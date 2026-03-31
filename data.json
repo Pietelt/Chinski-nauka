@@ -1189,6 +1189,29 @@
   "pl": "brać prysznic",
   "topic": "Fonetyka1"
 },
+
+{ "hanzi": "摊主", "pinyin": "tānzhǔ", "pl": "sprzedawca (na stoisku)", "topic": "Fonetyka 2" },
+{ "hanzi": "一点儿", "pinyin": "yī diǎnr", "pl": "trochę", "topic": "Fonetyka 2" },
+{ "hanzi": "西瓜", "pinyin": "xīguā", "pl": "arbuz", "topic": "Fonetyka 2" },
+{ "hanzi": "斤", "pinyin": "jīn", "pl": "0,5 kg", "topic": "Fonetyka 2" },
+{ "hanzi": "别的", "pinyin": "biéde", "pl": "inny", "topic": "Fonetyka 2" },
+{ "hanzi": "葡萄", "pinyin": "pútáo", "pl": "winogrona", "topic": "Fonetyka 2" },
+
+{ "hanzi": "一共", "pinyin": "yígòng", "pl": "razem", "topic": "Fonetyka 2" },
+{ "hanzi": "拖鞋", "pinyin": "tuōxié", "pl": "kapcie", "topic": "Fonetyka 2" },
+{ "hanzi": "双", "pinyin": "shuāng", "pl": "para (klasyfikator)", "topic": "Fonetyka 2" },
+{ "hanzi": "试", "pinyin": "shì", "pl": "próbować", "topic": "Fonetyka 2" },
+{ "hanzi": "挺", "pinyin": "tǐng", "pl": "całkiem", "topic": "Fonetyka 2" },
+{ "hanzi": "便宜", "pinyin": "piányi", "pl": "tani", "topic": "Fonetyka 2" },
+{ "hanzi": "样儿", "pinyin": "yàngr", "pl": "styl, wygląd", "topic": "Fonetyka 2" },
+
+{ "hanzi": "售货员", "pinyin": "shòuhuòyuán", "pl": "sprzedawca", "topic": "Fonetyka 2" },
+{ "hanzi": "手机", "pinyin": "shǒujī", "pl": "telefon komórkowy", "topic": "Fonetyka 2" },
+{ "hanzi": "随便", "pinyin": "suíbiàn", "pl": "dowolnie", "topic": "Fonetyka 2" },
+{ "hanzi": "帮", "pinyin": "bāng", "pl": "pomagać", "topic": "Fonetyka 2" },
+{ "hanzi": "上网", "pinyin": "shàngwǎng", "pl": "korzystać z internetu", "topic": "Fonetyka 2" },
+{ "hanzi": "颜色", "pinyin": "yánsè", "pl": "kolor", "topic": "Fonetyka 2" },
+  
   { "hanzi": "安徽", "pinyin": "Ānhuī", "pl": "Anhui", "topic": "Prowincje" },
 { "hanzi": "福建", "pinyin": "Fújiàn", "pl": "Fujian", "topic": "Prowincje" },
 { "hanzi": "甘肃", "pinyin": "Gānsù", "pl": "Gansu", "topic": "Prowincje" },
