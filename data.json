@@ -1069,6 +1069,32 @@
 { "hanzi": "摇滚乐", "pinyin": "yáogǔnyuè", "pl": "rock", "topic": "10B" },
 { "hanzi": "说唱音乐", "pinyin": "shuōchàng yīnyuè", "pl": "rap", "topic": "10B" },
 { "hanzi": "漫画", "pinyin": "mànhuà", "pl": "komiks, manga", "topic": "10B" },
+
+{ "hanzi": "爱情片", "pinyin": "àiqíngpiàn", "pl": "film romantyczny", "topic": "10C" },
+{ "hanzi": "喜剧片", "pinyin": "xǐjùpiàn", "pl": "komedia", "topic": "10C" },
+{ "hanzi": "科幻", "pinyin": "kēhuàn", "pl": "science-fiction", "topic": "10C" },
+{ "hanzi": "科幻片", "pinyin": "kēhuànpiàn", "pl": "film science-fiction", "topic": "10C" },
+{ "hanzi": "奇幻", "pinyin": "qíhuàn", "pl": "fantastyczny", "topic": "10C" },
+{ "hanzi": "奇幻片", "pinyin": "qíhuànpiàn", "pl": "film fantasy", "topic": "10C" },
+{ "hanzi": "言情小说", "pinyin": "yánqíng xiǎoshuō", "pl": "romans (powieść)", "topic": "10C" },
+{ "hanzi": "武侠小说", "pinyin": "wǔxiá xiǎoshuō", "pl": "powieść wuxia", "topic": "10C" },
+{ "hanzi": "侦探", "pinyin": "zhēntàn", "pl": "detektyw", "topic": "10C" },
+{ "hanzi": "民族", "pinyin": "mínzú", "pl": "naród", "topic": "10C" },
+{ "hanzi": "乡村音乐", "pinyin": "xiāngcūn yīnyuè", "pl": "muzyka country", "topic": "10C" },
+{ "hanzi": "迷", "pinyin": "mí", "pl": "fan", "topic": "10C" },
+
+{ "hanzi": "山城", "pinyin": "shānchéng", "pl": "górskie miasteczko", "topic": "10E" },
+{ "hanzi": "当地", "pinyin": "dāngdì", "pl": "to miejsce, lokalny", "topic": "10E" },
+{ "hanzi": "卡罗琳娜", "pinyin": "Kǎluólínnà", "pl": "Karolina (imię)", "topic": "10E" },
+{ "hanzi": "民歌", "pinyin": "míngē", "pl": "pieśń ludowa", "topic": "10E" },
+{ "hanzi": "歌舞团", "pinyin": "gēwǔtuán", "pl": "zespół pieśni i tańca", "topic": "10E" },
+
+{ "hanzi": "团员", "pinyin": "tuányuán", "pl": "członek zespołu", "topic": "10E" },
+{ "hanzi": "滑雪", "pinyin": "huáxuě", "pl": "jeździć na nartach", "topic": "10E" },
+{ "hanzi": "跳台滑雪", "pinyin": "tiàotái huáxuě", "pl": "skoki narciarskie", "topic": "10E" },
+{ "hanzi": "高山滑雪", "pinyin": "gāoshān huáxuě", "pl": "narciarstwo alpejskie", "topic": "10E" },
+{ "hanzi": "教练", "pinyin": "jiàoliàn", "pl": "trener", "topic": "10E" },
+
   {
   "hanzi": "号",
   "pinyin": "hào",
