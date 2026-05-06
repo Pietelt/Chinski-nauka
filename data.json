@@ -1324,6 +1324,11 @@
 { "hanzi": "上网", "pinyin": "shàngwǎng", "pl": "korzystać z internetu", "topic": "Fonetyka 2" },
 { "hanzi": "颜色", "pinyin": "yánsè", "pl": "kolor", "topic": "Fonetyka 2" },
 
+{ "hanzi": "上面", "pinyin": "shàngmiàn", "pl": "przód", "topic": "Fonetyka kierunki" },
+{ "hanzi": "下面", "pinyin": "xiàmiàn", "pl": "tył", "topic": "Fonetyka kierunki" },
+{ "hanzi": "左边", "pinyin": "zuǒbiān", "pl": "lewo", "topic": "Fonetyka kierunki" },
+{ "hanzi": "右边", "pinyin": "yòubiān", "pl": "prawo", "topic": "Fonetyka kierunki" },
+
 { "hanzi": "吧", "pinyin": "ba", "pl": "partykuła sugestii", "topic": "HSK2_1" },
 { "hanzi": "白", "pinyin": "bái", "pl": "biały", "topic": "HSK2_1" },
 { "hanzi": "百", "pinyin": "bǎi", "pl": "sto", "topic": "HSK2_1" },
