@@ -470,6 +470,24 @@ if (currentWord.components && currentWord.components.length > 0) {
 
 }
 
+document.addEventListener("keydown", (event) => {
+    // Nie reaguj podczas pisania w polach tekstowych
+    const tag = document.activeElement.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA") return;
+
+    switch (event.key.toLowerCase()) {
+        case "z":
+            event.preventDefault();
+            draw();
+            break;
+
+        case "x":
+            event.preventDefault();
+            showAnswer();
+            break;
+    }
+});
+    
 function speak() {
     if (!currentWord) return;
 
