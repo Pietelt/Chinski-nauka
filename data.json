@@ -1862,7 +1862,425 @@
 { "hanzi": "新疆", "pinyin": "Xīnjiāng", "pl": "Sinciang", "topic": "Prowincje" },
 { "hanzi": "西藏", "pinyin": "Xīzàng", "pl": "Tybet", "topic": "Prowincje" },
 { "hanzi": "香港", "pinyin": "Xiānggǎng", "pl": "Hongkong", "topic": "Prowincje" },
-{ "hanzi": "澳门", "pinyin": "Àomén", "pl": "Makau", "topic": "Prowincje" }
+{ "hanzi": "澳门", "pinyin": "Àomén", "pl": "Makau", "topic": "Prowincje" },
+
+{
+    "hanzi": "身体",
+    "pinyin": "shēntǐ",
+    "pl": "ciało",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "头",
+    "pinyin": "tóu",
+    "pl": "głowa",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "脸",
+    "pinyin": "liǎn",
+    "pl": "twarz",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "头发",
+    "pinyin": "tóufǎ",
+    "pl": "włosy",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "眼睛",
+    "pinyin": "yǎnjīng",
+    "pl": "oczy",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "鼻子",
+    "pinyin": "bízi",
+    "pl": "nos",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "耳朵",
+    "pinyin": "ěrduo",
+    "pl": "uszy",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "嘴巴",
+    "pinyin": "zuǐbā",
+    "pl": "usta, buzia",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "口",
+    "pinyin": "kǒu",
+    "pl": "usta",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "牙齿",
+    "pinyin": "yáchǐ",
+    "pl": "zęby",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "舌头",
+    "pinyin": "shétou",
+    "pl": "język",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "脖子",
+    "pinyin": "bózi",
+    "pl": "szyja",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "喉咙",
+    "pinyin": "hóulóng",
+    "pl": "gardło",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "肚子",
+    "pinyin": "dùzi",
+    "pl": "brzuch",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "胸",
+    "pinyin": "xiōng",
+    "pl": "klatka piersiowa",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "肩膀",
+    "pinyin": "jiānbǎng",
+    "pl": "barki",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "手",
+    "pinyin": "shǒu",
+    "pl": "ręka",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "手指",
+    "pinyin": "shǒuzhǐ",
+    "pl": "palce u rąk",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "指甲",
+    "pinyin": "zhǐjiǎ",
+    "pl": "paznokieć",
+    "topic": "ciało 1"
+  },
+  {
+    "hanzi": "脚",
+    "pinyin": "jiǎo",
+    "pl": "noga",
+    "topic": "ciało 1"
+  },
+
+  {
+    "hanzi": "脚指",
+    "pinyin": "jiǎozhǐ",
+    "pl": "palec u nóg",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "足",
+    "pinyin": "zú",
+    "pl": "stopa",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "背",
+    "pinyin": "bèi",
+    "pl": "plecy",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "屁股",
+    "pinyin": "pìgu",
+    "pl": "pośladki",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "尾巴",
+    "pinyin": "wěibā",
+    "pl": "ogon",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "脑",
+    "pinyin": "nǎo",
+    "pl": "mózg",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "心脏",
+    "pinyin": "xīnzàng",
+    "pl": "serce",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "肺",
+    "pinyin": "fèi",
+    "pl": "płuca",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "肝",
+    "pinyin": "gān",
+    "pl": "wątroba",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "肾",
+    "pinyin": "shèn",
+    "pl": "nerka",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "胃",
+    "pinyin": "wèi",
+    "pl": "żołądek",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "大肠",
+    "pinyin": "dàcháng",
+    "pl": "jelito grube",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "小肠",
+    "pinyin": "xiǎocháng",
+    "pl": "jelito cienkie",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "骨头",
+    "pinyin": "gǔtou",
+    "pl": "kości",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "生病",
+    "pinyin": "shēngbìng",
+    "pl": "zachorować",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "疼",
+    "pinyin": "téng",
+    "pl": "boleć",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "不舒服",
+    "pinyin": "bù shūfú",
+    "pl": "nie czuć się dobrze, czuć dyskomfort",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "感冒",
+    "pinyin": "gǎnmào",
+    "pl": "przeziębić się",
+    "topic": "ciało 2"
+  },
+  {
+    "hanzi": "咳嗽",
+    "pinyin": "késòu",
+    "pl": "kaszleć",
+    "topic": "ciało 2"
+  },
+
+  {
+    "hanzi": "流",
+    "pinyin": "liú",
+    "pl": "spływać",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "鼻涕",
+    "pinyin": "bítì",
+    "pl": "katar",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "眼泪",
+    "pinyin": "yǎnlèi",
+    "pl": "łzy",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "血",
+    "pinyin": "xuè",
+    "pl": "krew",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "汗",
+    "pinyin": "hàn",
+    "pl": "pot",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "堵住",
+    "pinyin": "dǔ zhù",
+    "pl": "mieć coś zatkanego, np. nos",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "塞住",
+    "pinyin": "sāi zhù",
+    "pl": "mieć coś zatkanego, np. nos",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "喉咙哑",
+    "pinyin": "hóulóng yǎ",
+    "pl": "mieć chrypkę",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "拉肚子",
+    "pinyin": "lā dùzi",
+    "pl": "mieć biegunkę",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "吐",
+    "pinyin": "tǔ",
+    "pl": "wymiotować",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "出汗",
+    "pinyin": "chū hàn",
+    "pl": "pocić się",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "中暑",
+    "pinyin": "zhòngshǔ",
+    "pl": "udar cieplny",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "上火",
+    "pinyin": "shàng huǒ",
+    "pl": "stan zapalny",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "断",
+    "pinyin": "duàn",
+    "pl": "złamać",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "割",
+    "pinyin": "gē",
+    "pl": "skaleczyć",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "伤",
+    "pinyin": "shāng",
+    "pl": "zranić",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "扭",
+    "pinyin": "niǔ",
+    "pl": "skręcić",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "癌病",
+    "pinyin": "ái bìng",
+    "pl": "rak",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "癌",
+    "pinyin": "ái",
+    "pl": "rak",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "食物中毒",
+    "pinyin": "shíwù zhòngdú",
+    "pl": "zatrucie pokarmowe",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "过敏",
+    "pinyin": "guòmǐn",
+    "pl": "alergia",
+    "topic": "ciało 3"
+  },
+  {
+    "hanzi": "抑郁症",
+    "pinyin": "yìyù zhèng",
+    "pl": "depresja",
+    "topic": "ciało 3"
+  },
+
+  {
+    "hanzi": "疯子",
+    "pinyin": "fēngzǐ",
+    "pl": "wariat",
+    "topic": "ciało 4"
+  },
+  {
+    "hanzi": "哑巴",
+    "pinyin": "yǎbā",
+    "pl": "niemowa",
+    "topic": "ciało 4"
+  },
+  {
+    "hanzi": "瞎子",
+    "pinyin": "xiāzǐ",
+    "pl": "niewidomy",
+    "topic": "ciało 4"
+  },
+  {
+    "hanzi": "洗澡",
+    "pinyin": "xǐzǎo",
+    "pl": "kąpać się",
+    "topic": "ciało 4"
+  },
+  {
+    "hanzi": "洗",
+    "pinyin": "xǐ",
+    "pl": "myć",
+    "topic": "ciało 4"
+  },
+  {
+    "hanzi": "刷牙",
+    "pinyin": "shuāyá",
+    "pl": "szczotkować zęby",
+    "topic": "ciało 4"
+  },
+  {
+    "hanzi": "擦汗",
+    "pinyin": "cā hàn",
+    "pl": "przetrzeć pot",
+    "topic": "ciało 4"
+  },
+  {
+    "hanzi": "健康",
+    "pinyin": "jiànkāng",
+    "pl": "zdrowy",
+    "topic": "ciało 4"
+  }
   ]
   
 
