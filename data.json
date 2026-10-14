@@ -2432,6 +2432,248 @@
   { "hanzi": "变化", "pinyin": "biànhuà", "pl": "zmieniać się", "topic": "hsk3_8 (bez powtórzeń)" },
   { "hanzi": "健康", "pinyin": "jiànkāng", "pl": "zdrowy", "topic": "hsk3_8 (bez powtórzeń)" },
   { "hanzi": "重要", "pinyin": "zhòngyào", "pl": "ważny", "topic": "hsk3_8 (bez powtórzeń)" },
+
+
+{
+    "hanzi": "阿姨",
+    "pinyin": "āyí",
+    "pl": "ciocia; pani (uprzejmy zwrot do kobiety)",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "矮",
+    "pinyin": "ǎi",
+    "pl": "niski, niskiego wzrostu",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "爱人",
+    "pinyin": "àiren",
+    "pl": "małżonek, małżonka",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "安静",
+    "pinyin": "ānjìng",
+    "pl": "cichy, spokojny",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "安全",
+    "pinyin": "ānquán",
+    "pl": "bezpieczny; bezpieczeństwo",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "把",
+    "pinyin": "bǎ",
+    "pl": "klasyfikator przedmiotów z uchwytem; partykuła konstrukcji 把",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "搬",
+    "pinyin": "bān",
+    "pl": "przenosić, nosić",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "班级",
+    "pinyin": "bānjí",
+    "pl": "klasa, grupa klasowa",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "搬家",
+    "pinyin": "bānjiā",
+    "pl": "przeprowadzać się",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "办",
+    "pinyin": "bàn",
+    "pl": "załatwiać, organizować, zajmować się czymś",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "办法",
+    "pinyin": "bànfǎ",
+    "pl": "sposób, metoda, rozwiązanie",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "办公室",
+    "pinyin": "bàngōngshì",
+    "pl": "biuro, gabinet",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "半天",
+    "pinyin": "bàntiān",
+    "pl": "pół dnia; bardzo długo",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "帮助",
+    "pinyin": "bāngzhù",
+    "pl": "pomagać; pomoc",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "饱",
+    "pinyin": "bǎo",
+    "pl": "najedzony, syty",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "报纸",
+    "pinyin": "bàozhǐ",
+    "pl": "gazeta",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "北",
+    "pinyin": "běi",
+    "pl": "północ",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "北方",
+    "pinyin": "běifāng",
+    "pl": "północ; północna część kraju",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "被",
+    "pinyin": "bèi",
+    "pl": "przez (oznaczenie strony biernej)",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "笔记",
+    "pinyin": "bǐjì",
+    "pl": "notatki",
+    "topic": "Nowe HSK3_1"
+  },
+  {
+    "hanzi": "比较",
+    "pinyin": "bǐjiào",
+    "pl": "porównywać; dość, stosunkowo; niż",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "笔记本",
+    "pinyin": "bǐjìběn",
+    "pl": "zeszyt, notatnik",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "比如",
+    "pinyin": "bǐrú",
+    "pl": "na przykład",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "比赛",
+    "pinyin": "bǐsài",
+    "pl": "rywalizować; zawody, mecz",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "必须",
+    "pinyin": "bìxū",
+    "pl": "musieć, koniecznie",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "变",
+    "pinyin": "biàn",
+    "pl": "zmieniać się, stać się",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "遍",
+    "pinyin": "biàn",
+    "pl": "klasyfikator określający pełne wykonanie czynności",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "变成",
+    "pinyin": "biànchéng",
+    "pl": "zmienić się w, stać się",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "变化",
+    "pinyin": "biànhuà",
+    "pl": "zmieniać się; zmiana",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "表演",
+    "pinyin": "biǎoyǎn",
+    "pl": "występować, odgrywać; występ",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "别的",
+    "pinyin": "biéde",
+    "pl": "inny, pozostały; coś innego",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "别人",
+    "pinyin": "biérén",
+    "pl": "inni ludzie, ktoś inny",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "宾馆",
+    "pinyin": "bīnguǎn",
+    "pl": "hotel",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "冰",
+    "pinyin": "bīng",
+    "pl": "lód; zamarzać",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "冰激凌",
+    "pinyin": "bīngjīlíng",
+    "pl": "lody",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "冰箱",
+    "pinyin": "bīngxiāng",
+    "pl": "lodówka",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "病人",
+    "pinyin": "bìngrén",
+    "pl": "pacjent, chory",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "不但",
+    "pinyin": "búdàn",
+    "pl": "nie tylko",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "不见",
+    "pinyin": "bújiàn",
+    "pl": "nie widzieć; zniknąć",
+    "topic": "Nowe HSK3_2"
+  },
+  {
+    "hanzi": "不用",
+    "pinyin": "búyòng",
+    "pl": "nie trzeba, nie musieć",
+    "topic": "Nowe HSK3_2"
+  },
   
 { "hanzi": "安徽", "pinyin": "Ānhuī", "pl": "Anhui", "topic": "Prowincje" },
 { "hanzi": "福建", "pinyin": "Fújiàn", "pl": "Fujian", "topic": "Prowincje" },
