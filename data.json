@@ -3121,6 +3121,456 @@
     "pinyin": "jiànkāng",
     "pl": "zdrowy",
     "topic": "ciało 4"
+  }，
+  {
+    "hanzi": "CE认证",
+    "pinyin": "CE rènzhèng",
+    "pl": "certyfikat CE",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "功能",
+    "pinyin": "gōngnéng",
+    "pl": "funkcja",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "除了",
+    "pinyin": "chúle",
+    "pl": "oprócz, poza",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "电子",
+    "pinyin": "diànzǐ",
+    "pl": "elektroniczny",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "产品",
+    "pinyin": "chǎnpǐn",
+    "pl": "produkt",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "发",
+    "pinyin": "fā",
+    "pl": "wysyłać",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "产品目录",
+    "pinyin": "chǎnpǐn mùlù",
+    "pl": "katalog produktów",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "说明书",
+    "pinyin": "shuōmíng shū",
+    "pl": "instrukcja obsługi, pisemne objaśnienie",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "及",
+    "pinyin": "jí",
+    "pl": "i, oraz",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "含有",
+    "pinyin": "hányǒu",
+    "pl": "zawierać",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "价目单",
+    "pinyin": "jiàmùdān",
+    "pl": "cennik, lista cen",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "留下",
+    "pinyin": "liúxià",
+    "pl": "zostawiać, pozostawiać",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "联系",
+    "pinyin": "liánxì",
+    "pl": "kontaktować się; kontakt",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "方式",
+    "pinyin": "fāngshì",
+    "pl": "sposób, metoda",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "电子邮件",
+    "pinyin": "diànzǐ yóujiàn",
+    "pl": "e-mail, poczta elektroniczna",
+    "topic": "Biznes_1"
+  },
+  {
+    "hanzi": "有限公司",
+    "pinyin": "yǒuxiàn gōngsī",
+    "pl": "spółka z ograniczoną odpowiedzialnością",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "总经理",
+    "pinyin": "zǒng jīnglǐ",
+    "pl": "dyrektor generalny",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "广州",
+    "pinyin": "Guǎngzhōu",
+    "pl": "Kanton (miasto w Chinach)",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "纺织品",
+    "pinyin": "fǎngzhīpǐn",
+    "pl": "tekstylia, wyroby tekstylne",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "主题",
+    "pinyin": "zhǔtí",
+    "pl": "temat",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "至",
+    "pinyin": "zhì",
+    "pl": "do (formalnie)",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "布料",
+    "pinyin": "bùliào",
+    "pl": "tkanina, materiał",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "供应商",
+    "pinyin": "gōngyìngshāng",
+    "pl": "dostawca",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "从事",
+    "pinyin": "cóngshì",
+    "pl": "zajmować się (zawodowo)",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "进出口",
+    "pinyin": "jìnchūkǒu",
+    "pl": "import i eksport",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "对X感兴趣",
+    "pinyin": "duì X gǎn xìngqù",
+    "pl": "interesować się czymś",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "尤其是",
+    "pinyin": "yóuqí shì",
+    "pl": "zwłaszcza, przede wszystkim",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "印花",
+    "pinyin": "yìnhuā",
+    "pl": "nadruk, wzór na tkaninie",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "棉布",
+    "pinyin": "miánbù",
+    "pl": "tkanina bawełniana",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "惠清",
+    "pinyin": "huìqǐng",
+    "pl": "uprzejmie prosić",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "以X方式",
+    "pinyin": "yǐ X fāngshì",
+    "pl": "w sposób X, drogą X (formalnie)",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "航空",
+    "pinyin": "hángkōng",
+    "pl": "lotnictwo; lotniczy",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "该",
+    "pinyin": "gāi",
+    "pl": "ten, rzeczony; powinien",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "样本",
+    "pinyin": "yàngběn",
+    "pl": "próbka, wzór",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "必要",
+    "pinyin": "bìyào",
+    "pl": "konieczny, niezbędny",
+    "topic": "Biznes_2"
+  },
+  {
+    "hanzi": "资料",
+    "pinyin": "zīliào",
+    "pl": "materiały, dane, informacje",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "随信附上X",
+    "pinyin": "suí xìn fùshàng",
+    "pl": "w załączeniu do listu przesyłam X",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "地址",
+    "pinyin": "dìzhǐ",
+    "pl": "adres",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "附件",
+    "pinyin": "fùjiàn",
+    "pl": "załącznik",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "此外",
+    "pinyin": "cǐwài",
+    "pl": "poza tym, ponadto",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "贵方",
+    "pinyin": "guìfāng",
+    "pl": "Państwo, Państwa strona (forma grzecznościowa)",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "报给",
+    "pinyin": "bàogěi",
+    "pl": "zaoferować, zaproponować (ofertę cenową)",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "汉堡",
+    "pinyin": "Hànbǎo",
+    "pl": "Hamburg",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "到岸价",
+    "pinyin": "dào'ànjià",
+    "pl": "cena CIF (z kosztami, ubezpieczeniem i frachtem)",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "如",
+    "pinyin": "rú",
+    "pl": "jeżeli, jeśli (formalnie)",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "竞争性",
+    "pinyin": "jìngzhēngxìng",
+    "pl": "konkurencyjność",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "将",
+    "pinyin": "jiāng",
+    "pl": "w formalnym języku wskazuje przyszłą czynność",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "预备",
+    "pinyin": "yùbèi",
+    "pl": "przygotować, przygotowywać",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "订购",
+    "pinyin": "dìnggòu",
+    "pl": "zamawiać; zamówienie",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "大宗",
+    "pinyin": "dàzōng",
+    "pl": "duża ilość, duża partia",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "货物",
+    "pinyin": "huòwù",
+    "pl": "towar, towary",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "期待",
+    "pinyin": "qídài",
+    "pl": "oczekiwać, czekać",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "答复",
+    "pinyin": "dáfù",
+    "pl": "odpowiadać, udzielić odpowiedzi",
+    "topic": "Biznes_3"
+  },
+  {
+    "hanzi": "敬上",
+    "pinyin": "jìngshàng",
+    "pl": "z wyrazami szacunku (w korespondencji)",
+    "topic": "Biznes_3"
+  },
+ {
+    "hanzi": "查询",
+    "pinyin": "cháxún",
+    "pl": "pytać, dowiadywać się; zapytanie, sprawdzenie informacji",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "客户",
+    "pinyin": "kèhù",
+    "pl": "klient",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "进口",
+    "pinyin": "jìnkǒu",
+    "pl": "import; importować",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "平板电脑",
+    "pinyin": "píngbǎn diànnǎo",
+    "pl": "tablet",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "因此",
+    "pinyin": "yīncǐ",
+    "pl": "zatem, dlatego, w związku z tym (formalnie)",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "以下",
+    "pinyin": "yǐxià",
+    "pl": "poniżej; poniższy, następujący",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "与",
+    "pinyin": "yǔ",
+    "pl": "i, oraz; z (formalnie)",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "对话",
+    "pinyin": "duìhuà",
+    "pl": "dialog; rozmawiać",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "华沙",
+    "pinyin": "Huáshā",
+    "pl": "Warszawa",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "国际",
+    "pinyin": "guójì",
+    "pl": "międzynarodowy; międzynarodowość",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "X部",
+    "pinyin": "X bù",
+    "pl": "dział X, departament X",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "经理",
+    "pinyin": "jīnglǐ",
+    "pl": "menedżer, kierownik",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "秘书",
+    "pinyin": "mìshū",
+    "pl": "sekretarz, sekretarka",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "稍等",
+    "pinyin": "shāo děng",
+    "pl": "chwileczkę; poczekać chwilę",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "转接",
+    "pinyin": "zhuǎnjiē",
+    "pl": "przełączać, przekierowywać (np. połączenie telefoniczne)",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "出口",
+    "pinyin": "chūkǒu",
+    "pl": "eksport; eksportować",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "网络",
+    "pinyin": "wǎngluò",
+    "pl": "sieć; internet",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "贵公司",
+    "pinyin": "guì gōngsī",
+    "pl": "Państwa firma (forma grzecznościowa)",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "广告",
+    "pinyin": "guǎnggào",
+    "pl": "reklama; reklamować",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "可惜",
+    "pinyin": "kěxī",
+    "pl": "szkoda; niestety",
+    "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "报价",
+    "pinyin": "bàojià",
+    "pl": "podać cenę, złożyć ofertę cenową; oferta cenowa, wycena",
+    "topic": "Biznes_4"
   }
   ]
   
