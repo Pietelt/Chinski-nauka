@@ -3413,7 +3413,7 @@
   {
     "hanzi": "订购",
     "pinyin": "dìnggòu",
-    "pl": "zamawiać; zamówienie",
+    "pl": "zamawiać, zamówienie",
     "topic": "Biznes_3"
   },
   {
@@ -3461,7 +3461,7 @@
   {
     "hanzi": "进口",
     "pinyin": "jìnkǒu",
-    "pl": "import; importować",
+    "pl": "import, importować",
     "topic": "Biznes_4"
   },
   {
@@ -3479,19 +3479,19 @@
   {
     "hanzi": "以下",
     "pinyin": "yǐxià",
-    "pl": "poniżej; poniższy, następujący",
+    "pl": "poniżej, poniższy, następujący",
     "topic": "Biznes_4"
   },
   {
     "hanzi": "与",
     "pinyin": "yǔ",
-    "pl": "i, oraz; z (formalnie)",
+    "pl": "i, oraz, z (formalnie)",
     "topic": "Biznes_4"
   },
   {
     "hanzi": "对话",
     "pinyin": "duìhuà",
-    "pl": "dialog; rozmawiać",
+    "pl": "dialog, rozmawiać",
     "topic": "Biznes_4"
   },
   {
@@ -3503,7 +3503,7 @@
   {
     "hanzi": "国际",
     "pinyin": "guójì",
-    "pl": "międzynarodowy; międzynarodowość",
+    "pl": "międzynarodowy, międzynarodowość",
     "topic": "Biznes_4"
   },
   {
@@ -3527,7 +3527,7 @@
   {
     "hanzi": "稍等",
     "pinyin": "shāo děng",
-    "pl": "chwileczkę; poczekać chwilę",
+    "pl": "chwileczkę, poczekać chwilę",
     "topic": "Biznes_4"
   },
   {
@@ -3539,13 +3539,13 @@
   {
     "hanzi": "出口",
     "pinyin": "chūkǒu",
-    "pl": "eksport; eksportować",
+    "pl": "eksport, eksportować",
     "topic": "Biznes_4"
   },
   {
     "hanzi": "网络",
     "pinyin": "wǎngluò",
-    "pl": "sieć; internet",
+    "pl": "sieć, internet",
     "topic": "Biznes_4"
   },
   {
@@ -3557,13 +3557,13 @@
   {
     "hanzi": "广告",
     "pinyin": "guǎnggào",
-    "pl": "reklama; reklamować",
+    "pl": "reklama, reklamować",
     "topic": "Biznes_4"
   },
   {
     "hanzi": "可惜",
     "pinyin": "kěxī",
-    "pl": "szkoda; niestety",
+    "pl": "szkoda, niestety",
     "topic": "Biznes_4"
   },
   {
@@ -3572,8 +3572,4 @@
     "pl": "podać cenę, złożyć ofertę cenową; oferta cenowa, wycena",
     "topic": "Biznes_4"
   }
-  ]
-  
-
-
-
+]
