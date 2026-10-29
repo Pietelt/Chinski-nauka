@@ -2674,6 +2674,132 @@
     "pl": "nie trzeba, nie musieć",
     "topic": "Nowe HSK3_2"
   },
+  {
+    "pinyin": "chéngshì",
+    "pl": "miasto",
+    "topic": "Nowe HSK3_3"
+  },
+  {
+    "hanzi": "迟到",
+    "pinyin": "chídào",
+    "pl": "spóźniać się",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "出发",
+    "pinyin": "chūfā",
+    "pl": "wyruszać, wyjeżdżać",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "出生",
+    "pinyin": "chūshēng",
+    "pl": "urodzić się",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "出院",
+    "pinyin": "chūyuàn",
+    "pl": "wyjść ze szpitala, zostać wypisanym ze szpitala",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "初中",
+    "pinyin": "chūzhōng",
+    "pl": "gimnazjum, szkoła średnia I stopnia",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "除了",
+    "pinyin": "chúle",
+    "pl": "oprócz, poza; z wyjątkiem",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "船",
+    "pinyin": "chuán",
+    "pl": "łódź, statek",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "春天",
+    "pinyin": "chūntiān",
+    "pl": "wiosna",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "词典",
+    "pinyin": "cídiǎn",
+    "pl": "słownik",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "聪明",
+    "pinyin": "cōngmíng",
+    "pl": "mądry, bystry, inteligentny",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "打扫",
+    "pinyin": "dǎsǎo",
+    "pl": "sprzątać, czyścić",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "打算",
+    "pinyin": "dǎsuàn",
+    "pl": "planować, zamierzać; plan",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "大概",
+    "pinyin": "dàgài",
+    "pl": "ogólny, przybliżony; prawdopodobnie, około; ogólny zarys",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "大人",
+    "pinyin": "dàren",
+    "pl": "dorosły",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "大小",
+    "pinyin": "dàxiǎo",
+    "pl": "rozmiar, wielkość",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "大熊猫",
+    "pinyin": "dàxióngmāo",
+    "pl": "panda wielka",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "大衣",
+    "pinyin": "dàyī",
+    "pl": "płaszcz",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "带",
+    "pinyin": "dài",
+    "pl": "zabrać, przynieść, zabrać ze sobą; pasek",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "担心",
+    "pinyin": "dānxīn",
+    "pl": "martwić się, niepokoić się",
+    "topic": "Nowe HSK3_4"
+  },
+  {
+    "hanzi": "蛋糕",
+    "pinyin": "dàngāo",
+    "pl": "ciasto, tort",
+    "topic": "Nowe HSK3_4"
+  },
+
   
 { "hanzi": "安徽", "pinyin": "Ānhuī", "pl": "Anhui", "topic": "Prowincje" },
 { "hanzi": "福建", "pinyin": "Fújiàn", "pl": "Fujian", "topic": "Prowincje" },
