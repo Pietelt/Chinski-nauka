@@ -3697,5 +3697,425 @@
     "pinyin": "bàojià",
     "pl": "podać cenę, złożyć ofertę cenową; oferta cenowa, wycena",
     "topic": "Biznes_4"
+  },
+  {
+    "hanzi": "凌晨",
+    "pinyin": "língchén",
+    "pl": "wczesnym rankiem, nad ranem",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "早晨",
+    "pinyin": "zǎochén",
+    "pl": "rano, poranek",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "傍晚",
+    "pinyin": "bàngwǎn",
+    "pl": "wieczorem, zmierzch",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "半夜",
+    "pinyin": "bànyè",
+    "pl": "północ, środek nocy",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "白天",
+    "pinyin": "báitiān",
+    "pl": "dzień, w ciągu dnia",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "夜里",
+    "pinyin": "yèlǐ",
+    "pl": "nocą, w nocy",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "礼拜天",
+    "pinyin": "lǐbàitiān",
+    "pl": "niedziela",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "礼拜日",
+    "pinyin": "lǐbàirì",
+    "pl": "niedziela",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "放假",
+    "pinyin": "fàngjià",
+    "pl": "mieć wolne, mieć wakacje",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "八月份",
+    "pinyin": "bāyuèfèn",
+    "pl": "sierpień",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "一月初",
+    "pinyin": "yīyuèchū",
+    "pl": "na początku stycznia",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "四月底",
+    "pinyin": "sìyuèdǐ",
+    "pl": "pod koniec kwietnia",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "五月上旬",
+    "pinyin": "wǔyuè shàngxún",
+    "pl": "na początku maja, w pierwszej dekadzie maja",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "八月中旬",
+    "pinyin": "bāyuè zhōngxún",
+    "pl": "w połowie sierpnia",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "九月下旬",
+    "pinyin": "jiǔyuè xiàxún",
+    "pl": "pod koniec września, w ostatniej dekadzie września",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "三十年代",
+    "pinyin": "sānshí niándài",
+    "pl": "lata trzydzieste XX wieku",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "哪年",
+    "pinyin": "nǎnián",
+    "pl": "który rok",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "几号",
+    "pinyin": "jǐ hào",
+    "pl": "którego dnia, który dzień miesiąca",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "几月",
+    "pinyin": "jǐyuè",
+    "pl": "który miesiąc",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "大前天",
+    "pinyin": "dàqiántiān",
+    "pl": "trzy dni temu",
+    "topic": "czas_gramatyka_1"
+  },
+  {
+    "hanzi": "前天",
+    "pinyin": "qiántiān",
+    "pl": "przedwczoraj",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "pl": "wczoraj",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "pl": "dzisiaj",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "pl": "jutro",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "后天",
+    "pinyin": "hòutiān",
+    "pl": "pojutrze",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "大后天",
+    "pinyin": "dàhòutiān",
+    "pl": "za trzy dni",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "大前年",
+    "pinyin": "dàqiánnián",
+    "pl": "trzy lata temu",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "前年",
+    "pinyin": "qiánnián",
+    "pl": "dwa lata temu, przed dwoma laty",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "去年",
+    "pinyin": "qùnián",
+    "pl": "w zeszłym roku",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "今年",
+    "pinyin": "jīnnián",
+    "pl": "w tym roku",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "明年",
+    "pinyin": "míngnián",
+    "pl": "w przyszłym roku",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "后年",
+    "pinyin": "hòunián",
+    "pl": "za dwa lata, w roku po przyszłym",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "大后年",
+    "pinyin": "dàhòunián",
+    "pl": "za trzy lata",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "下个星期",
+    "pinyin": "xià ge xīngqī",
+    "pl": "w przyszłym tygodniu",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "这个星期",
+    "pinyin": "zhège xīngqī",
+    "pl": "w tym tygodniu",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "上个星期",
+    "pinyin": "shàng ge xīngqī",
+    "pl": "w zeszłym tygodniu",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "下个月",
+    "pinyin": "xià ge yuè",
+    "pl": "w przyszłym miesiącu",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "这个月",
+    "pinyin": "zhège yuè",
+    "pl": "w tym miesiącu",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "上个月",
+    "pinyin": "shàng ge yuè",
+    "pl": "w zeszłym miesiącu",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "每个星期",
+    "pinyin": "měi ge xīngqī",
+    "pl": "co tydzień",
+    "topic": "czas_gramatyka_2"
+  },
+  {
+    "hanzi": "每个星期天",
+    "pinyin": "měi ge xīngqītiān",
+    "pl": "w każdą niedzielę",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "每个月",
+    "pinyin": "měi ge yuè",
+    "pl": "co miesiąc",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "每天",
+    "pinyin": "měitiān",
+    "pl": "codziennie, każdego dnia",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "每年",
+    "pinyin": "měinián",
+    "pl": "co roku, każdego roku",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "钟头",
+    "pinyin": "zhōngtóu",
+    "pl": "godzina",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "pl": "odpoczywać, odpoczynek",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "进修",
+    "pinyin": "jìnxiū",
+    "pl": "dokształcać się, doskonalić zawodowo",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "帮忙",
+    "pinyin": "bāngmáng",
+    "pl": "pomagać, udzielać pomocy",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "帮助",
+    "pinyin": "bāngzhù",
+    "pl": "pomagać, pomoc",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "一段",
+    "pinyin": "yīduàn",
+    "pl": "klasyfikator odcinków czasu",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "同意",
+    "pinyin": "tóngyì",
+    "pl": "zgadzać się, wyrażać zgodę",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "八点整",
+    "pinyin": "bā diǎn zhěng",
+    "pl": "dokładnie ósma godzina",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "差不多",
+    "pinyin": "chàbuduō",
+    "pl": "prawie, niemal, mniej więcej",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "小时候",
+    "pinyin": "xiǎoshíhou",
+    "pl": "kiedy byłem dzieckiem, w dzieciństwie",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "不是时候",
+    "pinyin": "bú shì shíhou",
+    "pl": "to nieodpowiedni moment",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "什么时候",
+    "pinyin": "shénme shíhou",
+    "pl": "kiedy",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "定在",
+    "pinyin": "dìng zài",
+    "pl": "ustalić na, wyznaczyć na",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "多长时间",
+    "pinyin": "duō cháng shíjiān",
+    "pl": "jak długo",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "多少时间",
+    "pinyin": "duōshǎo shíjiān",
+    "pl": "ile czasu",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "花多少时间",
+    "pinyin": "huā duōshǎo shíjiān",
+    "pl": "ile czasu poświęcić, spędzić",
+    "topic": "czas_gramatyka_3"
+  },
+  {
+    "hanzi": "花时间",
+    "pinyin": "huā shíjiān",
+    "pl": "poświęcać czas, spędzać czas",
+    "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "……的时候",
+    "pinyin": "…de shíhou",
+    "pl": "kiedy…, w czasie gdy…",
+    "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "有的时候",
+    "pinyin": "yǒu de shíhou",
+    "pl": "czasami, od czasu do czasu",
+    "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "无聊",
+    "pinyin": "wúliáo",
+    "pl": "nudny, nudzić się",
+    "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "零食",
+    "pinyin": "língshí",
+    "pl": "przekąski",
+    "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "以前",
+    "pinyin": "yǐqián",
+    "pl": "wcześniej, przedtem",
+    "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "以后",
+    "pinyin": "yǐhòu",
+    "pl": "później, potem, w przyszłości",
+    "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "两天以前",
+    "pinyin": "liǎng tiān yǐqián",
+    "pl": "dwa dni temu",
+    "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "半个小时以后",
+    "pinyin": "bàn ge xiǎoshí yǐhòu",
+    "pl": "za pół godziny",
+    "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "结束",
+    "pinyin": "jiéshù",
+    "pl": "kończyć, zakończyć; koniec",
+    "topic": "czas_gramatyka_4"
   }
 ]
