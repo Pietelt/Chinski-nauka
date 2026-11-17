@@ -4586,5 +4586,29 @@
     "pinyin": "jiéshù",
     "pl": "kończyć, zakończyć; koniec",
     "topic": "czas_gramatyka_4"
+  },
+  {
+    "hanzi": "母猫",
+    "pinyin": "Mǔmāo",
+    "pl": "kotka",
+    "topic": "czas_gramatyka_4"
+  }，
+  {
+    "hanzi": "雌猫",
+    "pinyin": "címāo",
+    "pl": "kotka",
+    "topic": "czas_gramatyka_4"
+  }，
+  {
+    "hanzi": "公",
+    "pinyin": "gōng māo",
+    "pl": "kot",
+    "topic": "czas_gramatyka_4"
+  }，
+  {
+    "hanzi": "雄猫",
+    "pinyin": "xióng māo",
+    "pl": "kot",
+    "topic": "czas_gramatyka_4"
   }
 ]
