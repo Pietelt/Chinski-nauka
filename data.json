@@ -1258,9 +1258,620 @@
   { "hanzi": "民族学", "pinyin": "mínzúxué", "pl": "etnologia", "topic": "Rok 2, 11H" },
   { "hanzi": "壮族", "pinyin": "Zhuàngzú", "pl": "naród Zhuang", "topic": "Rok 2, 11H" },
 
-
-
   {
+    "hanzi": "锻炼",
+    "pinyin": "duànliàn",
+    "pl": "ćwiczyć, wykonywać ćwiczenia fizyczne",
+    "topic": "Rok 2, 12A"
+  },
+  {
+    "hanzi": "早饭",
+    "pinyin": "zǎofàn",
+    "pl": "śniadanie",
+    "topic": "Rok 2, 12A"
+  },
+  {
+    "hanzi": "晚饭",
+    "pinyin": "wǎnfàn",
+    "pl": "kolacja",
+    "topic": "Rok 2, 12A"
+  },
+  {
+    "hanzi": "起床",
+    "pinyin": "qǐchuáng",
+    "pl": "wstawać z łóżka",
+    "topic": "Rok 2, 12A"
+  },
+  {
+    "hanzi": "公园",
+    "pinyin": "gōngyuán",
+    "pl": "park",
+    "topic": "Rok 2, 12A"
+  },
+  {
+    "hanzi": "以后",
+    "pinyin": "yǐhòu",
+    "pl": "potem, po, później",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "先",
+    "pinyin": "xiān",
+    "pl": "najpierw",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "洗澡",
+    "pinyin": "xǐzǎo",
+    "pl": "kąpać się, myć się",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "然后",
+    "pinyin": "ránhòu",
+    "pl": "potem, następnie",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "pl": "odpoczywać, odpoczynek",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "小时",
+    "pinyin": "xiǎoshí",
+    "pl": "godzina",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "午饭",
+    "pinyin": "wǔfàn",
+    "pl": "obiad, lunch",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "左右",
+    "pinyin": "zuǒyòu",
+    "pl": "około, mniej więcej",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "一会儿",
+    "pinyin": "yíhuìr",
+    "pl": "chwila",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "或者",
+    "pinyin": "huòzhě",
+    "pl": "albo, lub",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "一边",
+    "pinyin": "yìbiān",
+    "pl": "jednocześnie, w tym samym czasie",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "东西",
+    "pinyin": "dōngxi",
+    "pl": "rzecz, przedmiot",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "泡吧",
+    "pinyin": "pàobā",
+    "pl": "przesiadywać w pubach",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "找",
+    "pinyin": "zhǎo",
+    "pl": "szukać",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "有时候",
+    "pinyin": "yǒu shíhou",
+    "pl": "czasami",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "出去",
+    "pinyin": "chūqù",
+    "pl": "wychodzić",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "上床",
+    "pinyin": "shàngchuáng",
+    "pl": "iść do łóżka",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "以前",
+    "pinyin": "yǐqián",
+    "pl": "przedtem, wcześniej",
+    "topic": "Rok 2, 12B"
+  },
+  {
+    "hanzi": "卫生间",
+    "pinyin": "wèishēngjiān",
+    "pl": "łazienka, toaleta",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "继续",
+    "pinyin": "jìxù",
+    "pl": "kontynuować",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "下班",
+    "pinyin": "xiàbān",
+    "pl": "kończyć pracę",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "才",
+    "pinyin": "cái",
+    "pl": "dopiero (w odniesieniu do czasu)",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "刮脸",
+    "pinyin": "guāliǎn",
+    "pl": "golić się",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "报纸",
+    "pinyin": "bàozhǐ",
+    "pl": "gazeta",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "pl": "kupować",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "查",
+    "pinyin": "chá",
+    "pl": "sprawdzać",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "信箱",
+    "pinyin": "xìnxiāng",
+    "pl": "skrzynka pocztowa",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "咖啡",
+    "pinyin": "kāfēi",
+    "pl": "kawa",
+    "topic": "Rok 2, 12C"
+  },
+  {
+    "hanzi": "编制程序",
+    "pinyin": "biānzhì chéngxù",
+    "pl": "pisać programy komputerowe",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "开会",
+    "pinyin": "kāihuì",
+    "pl": "uczestniczyć w zebraniu, odbywać zebranie",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "酒",
+    "pinyin": "jiǔ",
+    "pl": "alkohol",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "嚼",
+    "pinyin": "jiáo",
+    "pl": "żuć",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "口香糖",
+    "pinyin": "kǒuxiāngtáng",
+    "pl": "guma do żucia",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "客户",
+    "pinyin": "kèhù",
+    "pl": "klient (firmy)",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "同事",
+    "pinyin": "tóngshì",
+    "pl": "kolega z pracy, współpracownik",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "报告",
+    "pinyin": "bàogào",
+    "pl": "raport, sprawozdanie",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "瞌睡",
+    "pinyin": "kēshuì",
+    "pl": "drzemać, być sennym",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "打瞌睡",
+    "pinyin": "dǎ kēshuì",
+    "pl": "ucinać sobie drzemkę",
+    "topic": "Rok 2, 12D"
+  },
+  {
+    "hanzi": "背",
+    "pinyin": "bèi",
+    "pl": "uczyć się na pamięć",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "生词",
+    "pinyin": "shēngcí",
+    "pl": "nowe słówka, niezrozumiałe słówka",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "洗",
+    "pinyin": "xǐ",
+    "pl": "myć",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "练习",
+    "pinyin": "liànxí",
+    "pl": "ćwiczenie",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "汤",
+    "pinyin": "tāng",
+    "pl": "zupa",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "念",
+    "pinyin": "niàn",
+    "pl": "czytać na głos",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "课文",
+    "pinyin": "kèwén",
+    "pl": "tekst w podręczniku",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "收拾",
+    "pinyin": "shōushi",
+    "pl": "porządkować, sprzątać",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "刷",
+    "pinyin": "shuā",
+    "pl": "szczotkować (np. zęby)",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "牙",
+    "pinyin": "yá",
+    "pl": "ząb",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "打扫",
+    "pinyin": "dǎsǎo",
+    "pl": "zamiatać, sprzątać",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "花",
+    "pinyin": "huā",
+    "pl": "spędzać (czas)",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "家务",
+    "pinyin": "jiāwù",
+    "pl": "prace domowe",
+    "topic": "Rok 2, 12E"
+  },
+  {
+    "hanzi": "笔记",
+    "pinyin": "bǐjì",
+    "pl": "notatki",
+    "topic": "Rok 2, 12F"
+  },
+  {
+    "hanzi": "红酒",
+    "pinyin": "hóngjiǔ",
+    "pl": "czerwone wino",
+    "topic": "Rok 2, 12F"
+  },
+  {
+    "hanzi": "咖啡厅",
+    "pinyin": "kāfēitīng",
+    "pl": "kawiarnia",
+    "topic": "Rok 2, 12F"
+  },
+  {
+    "hanzi": "喂",
+    "pinyin": "wèi",
+    "pl": "halo",
+    "topic": "Rok 2, 12G"
+  },
+  {
+    "hanzi": "一言为定",
+    "pinyin": "yì yán wéi dìng",
+    "pl": "umowa stoi",
+    "topic": "Rok 2, 12G"
+  },
+  {
+    "hanzi": "不见不散",
+    "pinyin": "bú jiàn bú sàn",
+    "pl": "nie odchodzimy, dopóki się nie zobaczymy; czekamy na siebie do skutku",
+    "topic": "Rok 2, 12G"
+  },
+  {
+    "hanzi": "功课",
+    "pinyin": "gōngkè",
+    "pl": "praca domowa, zadanie domowe",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "亲爱",
+    "pinyin": "qīn'ài",
+    "pl": "drogi, kochany",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "pl": "miesiąc",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "这里",
+    "pinyin": "zhèlǐ",
+    "pl": "tutaj",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "就",
+    "pinyin": "jiù",
+    "pl": "już (dawno), już (wtedy)",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "习惯",
+    "pinyin": "xíguàn",
+    "pl": "przyzwyczaić się (do czegoś), mieć w zwyczaju",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "教室",
+    "pinyin": "jiàoshì",
+    "pl": "klasa, sala lekcyjna",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "食堂",
+    "pinyin": "shítáng",
+    "pl": "stołówka",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "有的",
+    "pinyin": "yǒude",
+    "pl": "niektóre, niektórzy",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "饭馆",
+    "pinyin": "fànguǎn",
+    "pl": "restauracja",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "午睡",
+    "pinyin": "wǔshuì",
+    "pl": "drzemka południowa",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "习惯",
+    "pinyin": "xíguàn",
+    "pl": "zwyczaj, przyzwyczajenie",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "散步",
+    "pinyin": "sànbù",
+    "pl": "spacerować, spacer",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "作业",
+    "pinyin": "zuòyè",
+    "pl": "zadanie domowe, praca domowa",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "胜利",
+    "pinyin": "shènglì",
+    "pl": "zwyciężyć, zwycięstwo",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "共同",
+    "pinyin": "gòngtóng",
+    "pl": "wspólny",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "话题",
+    "pinyin": "huàtí",
+    "pl": "temat rozmowy",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "关门",
+    "pinyin": "guānmén",
+    "pl": "zamykać drzwi, zamykać bramę",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "必须",
+    "pinyin": "bìxū",
+    "pl": "koniecznie, musieć",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "希望",
+    "pinyin": "xīwàng",
+    "pl": "mieć nadzieję, nadzieja",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "快乐",
+    "pinyin": "kuàilè",
+    "pl": "radosny, szczęśliwy",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "日",
+    "pinyin": "rì",
+    "pl": "dzień (głównie w języku pisanym)",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "pl": "zeszły (o tygodniu lub miesiącu)",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "下",
+    "pinyin": "xià",
+    "pl": "przyszły (o tygodniu lub miesiącu)",
+    "topic": "Rok 2, 12H"
+  },
+  {
+    "hanzi": "好玩儿",
+    "pinyin": "hǎowánr",
+    "pl": "zabawny, ciekawy, dający dużo frajdy",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "桑德拉",
+    "pinyin": "Sāngdélā",
+    "pl": "Sandra (imię)",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "哎呀",
+    "pinyin": "āiyā",
+    "pl": "wykrzyknik wyrażający pretensje lub niezadowolenie",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "睡懒觉",
+    "pinyin": "shuì lǎnjiào",
+    "pl": "spać długo, wylegiwać się",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "迟到",
+    "pinyin": "chídào",
+    "pl": "spóźniać się",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "泰克诺",
+    "pinyin": "tàikènuò",
+    "pl": "techno",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "什么的",
+    "pinyin": "shénmede",
+    "pl": "i tym podobne",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "pl": "niebo, dzień",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "哪",
+    "pinyin": "na",
+    "pl": "partykuła modalna, odpowiednik 啊 po wyrazach zakończonych na -n",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "一定",
+    "pinyin": "yídìng",
+    "pl": "określony, pewny",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "不成问题",
+    "pinyin": "bù chéng wèntí",
+    "pl": "nie stanowić problemu",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "签名",
+    "pinyin": "qiānmíng",
+    "pl": "podpisać się, podpis",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "日期",
+    "pinyin": "rìqī",
+    "pl": "data",
+    "topic": "Rok 2, 12I"
+  },
+  {
+    "hanzi": "话",
+    "pinyin": "huà",
+    "pl": "mowa, słowa, wypowiedź",
+    "topic": "Rok 2, 12ĆW"
+  },
+  {
+    "hanzi": "讲课",
+    "pinyin": "jiǎngkè",
+    "pl": "prowadzić lekcję, prowadzić zajęcia",
+    "topic": "Rok 2, 12ĆW"
+  },
+  {
+    "hanzi": "阅览室",
+    "pinyin": "yuèlǎnshì",
+    "pl": "czytelnia",
+    "topic": "Rok 2, 12ĆW"
+  },
+
+{
   "hanzi": "号",
   "pinyin": "hào",
   "pl": "data",
